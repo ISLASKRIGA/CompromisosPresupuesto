@@ -1,0 +1,135 @@
+{
+  "total_records": 903,
+  "diff_records_count": 582,
+  "sicop_mod_sum": 1051329620.6800001,
+  "inper_mod_sum": 299629338.45,
+  "dif_mod_sum": 751700282.23,
+  "sub_registro_count": 452,
+  "sub_registro_sum": 752841512.61,
+  "sobre_registro_count": 130,
+  "sobre_registro_sum": -1141230.3900000001,
+  "omision_total_count": 62,
+  "omision_total_sum": 283591453.21,
+  "top_15_errors": [
+    {
+      "id": 892,
+      "contrato": "007-5300-01/2026",
+      "proveedor": "GRUPO TECNO-REAL S.A. DE C.V.",
+      "sicop_mod_blue": 30877206.93,
+      "inper_mod_orange": 0.0,
+      "dif_mod_purple": 30877206.93
+    },
+    {
+      "id": 894,
+      "contrato": "007-5300-01/2026",
+      "proveedor": "GRUPO TECNO-REAL S.A. DE C.V.",
+      "sicop_mod_blue": 30877206.93,
+      "inper_mod_orange": 0.0,
+      "dif_mod_purple": 30877206.93
+    },
+    {
+      "id": 891,
+      "contrato": "007-5300-01/2026",
+      "proveedor": "GRUPO TECNO-REAL S.A. DE C.V.",
+      "sicop_mod_blue": 30877206.93,
+      "inper_mod_orange": 0.0,
+      "dif_mod_purple": 30877206.93
+    },
+    {
+      "id": 893,
+      "contrato": "007-5300-01/2026",
+      "proveedor": "GRUPO TECNO-REAL S.A. DE C.V.",
+      "sicop_mod_blue": 30877206.93,
+      "inper_mod_orange": 0.0,
+      "dif_mod_purple": 30877206.93
+    },
+    {
+      "id": 650,
+      "contrato": "007-5300-01/2026",
+      "proveedor": "GRUPO TECNO-REAL S.A. DE C.V.",
+      "sicop_mod_blue": 30877206.93,
+      "inper_mod_orange": 106176.0,
+      "dif_mod_purple": 30771030.93
+    },
+    {
+      "id": 652,
+      "contrato": "007-5300-01/2026",
+      "proveedor": "GRUPO TECNO-REAL S.A. DE C.V.",
+      "sicop_mod_blue": 30877206.93,
+      "inper_mod_orange": 1382826.0,
+      "dif_mod_purple": 29494380.93
+    },
+    {
+      "id": 653,
+      "contrato": "007-5300-01/2026",
+      "proveedor": "GRUPO TECNO-REAL S.A. DE C.V.",
+      "sicop_mod_blue": 30877206.93,
+      "inper_mod_orange": 1998689.0,
+      "dif_mod_purple": 28878517.93
+    },
+    {
+      "id": 890,
+      "contrato": "122-9100-01/2025",
+      "proveedor": "DISTRIBUIDORA DISUR, S.A. DE C.V.",
+      "sicop_mod_blue": 23952000.19,
+      "inper_mod_orange": 0.0,
+      "dif_mod_purple": 23952000.19
+    },
+    {
+      "id": 654,
+      "contrato": "007-5300-01/2026",
+      "proveedor": "GRUPO TECNO-REAL S.A. DE C.V.",
+      "sicop_mod_blue": 30877206.93,
+      "inper_mod_orange": 11862354.0,
+      "dif_mod_purple": 19014852.93
+    },
+    {
+      "id": 895,
+      "contrato": "011-2400-01/2026",
+      "proveedor": "LOGISTICA MARVIL SA DE CV",
+      "sicop_mod_blue": 17405910.15,
+      "inper_mod_orange": 0.0,
+      "dif_mod_purple": 17405910.15
+    },
+    {
+      "id": 888,
+      "contrato": "005-5320-01/2026",
+      "proveedor": "RMS SEGURIDAD PRIVADA SA DE CV",
+      "sicop_mod_blue": 15595740.8,
+      "inper_mod_orange": 0.0,
+      "dif_mod_purple": 15595740.8
+    },
+    {
+      "id": 886,
+      "contrato": "005-5320-01/2026",
+      "proveedor": "RMS SEGURIDAD PRIVADA SA DE CV",
+      "sicop_mod_blue": 15595740.8,
+      "inper_mod_orange": 0.0,
+      "dif_mod_purple": 15595740.8
+    },
+    {
+      "id": 885,
+      "contrato": "005-5320-01/2026",
+      "proveedor": "RMS SEGURIDAD PRIVADA SA DE CV",
+      "sicop_mod_blue": 15595740.8,
+      "inper_mod_orange": 0.0,
+      "dif_mod_purple": 15595740.8
+    },
+    {
+      "id": 887,
+      "contrato": "005-5320-01/2026",
+      "proveedor": "RMS SEGURIDAD PRIVADA SA DE CV",
+      "sicop_mod_blue": 15595740.8,
+      "inper_mod_orange": 0.0,
+      "dif_mod_purple": 15595740.8
+    },
+    {
+      "id": 522,
+      "contrato": "005-5320-01/2026",
+      "proveedor": "RMS SEGURIDAD PRIVADA SA DE CV",
+      "sicop_mod_blue": 15595740.8,
+      "inper_mod_orange": 139648.0,
+      "dif_mod_purple": 15456092.8
+    }
+  ]
+}

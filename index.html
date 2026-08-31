@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INPER - Dashboard Ejecutivo de Conciliación Presupuestal</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Chart.js CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="theme-executive">
+    <!-- Header Principal -->
+    <header class="app-header">
+        <div class="header-container">
+            <div class="brand-section">
+                <div class="brand-logo">
+                    <span class="logo-text">INPER</span>
+                </div>
+                <div class="brand-titles">
+                    <h1 class="app-title">Conciliación Presupuestal vs. SICOP 2026</h1>
+                    <p class="app-subtitle">Instituto Nacional de Perinatología Isidro Espinosa de los Reyes • Dirección de Administración</p>
+                </div>
+            </div>
+            <div class="header-controls">
+                <div class="view-mode-toggle" id="viewModeToggle">
+                    <span class="toggle-label">Modo de Análisis:</span>
+                    <button class="mode-btn active" data-mode="contract">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+                        Real por Contrato (625)
+                    </button>
+                    <button class="mode-btn" data-mode="partida">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                        Tabla Origen (903 Partidas)
+                    </button>
+                </div>
+                <div class="accessibility-controls">
+                    <button id="btnTextSize" class="icon-btn" title="Aumentar tamaño de letra">
+                        <span>A<sup>+</sup></span>
+                    </button>
+                    <a href="Pruebareporteejecutivo_validado_PCOM_CM_correcto.xlsx" download="Pruebareporteejecutivo_validado_PCOM_CM_correcto.xlsx" class="btn btn-success" style="background:#059669; color:white; text-decoration:none; display:inline-flex; align-items:center; gap:6px; font-weight:600;" title="Descargar archivo Excel original tal cual">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                        Descargar Excel Validado
+                    </a>
+                    <button id="btnExportReport" class="btn btn-secondary" onclick="window.print()">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 9V2h12v7"></path><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+                        Imprimir Reporte
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main class="main-content">
+        <!-- Expanded 8 KPI Cards Grid -->
+        <section class="kpi-grid">
+            <!-- Ficha 1: Suficiencia Autorizada -->
+            <div class="kpi-card primary" id="cardSuficiencia">
+                <div class="kpi-header">
+                    <span class="kpi-title">Suficiencia Autorizada</span>
+                    <span class="kpi-badge info" id="kpiCountBadge">625 CONTRATOS</span>
+                </div>
+                <div class="kpi-value" id="kpiAutorizado">$303,416,797</div>
+                <div class="kpi-footer">
+                    <span class="kpi-subtext">Monto de suficiencia total validado</span>
+                </div>
+            </div>
+
+            <!-- Ficha 2: Comprometido SICOP -->
+            <div class="kpi-card success" id="cardSicop">
+                <div class="kpi-header">
+                    <span class="kpi-title">Comprometido en SICOP</span>
+                    <span class="kpi-badge success">OFICIAL SICOP</span>
+                </div>
+                <div class="kpi-value" id="kpiSicop">$301,884,723</div>
+                <div class="kpi-footer">
+                    <span class="kpi-trend positive" id="kpiCoverageText">99.5% de Cobertura Registrada</span>
+                </div>
+            </div>
+
+            <!-- Ficha 3: Reportado por Almacen -->
+            <div class="kpi-card warning" id="cardAlmacen">
+                <div class="kpi-header">
+                    <span class="kpi-title">Reportado por Almacén</span>
+                    <span class="kpi-badge warning">CAPTURA INPER</span>
+                </div>
+                <div class="kpi-value" id="kpiAlmacenReported">$299,629,338</div>
+                <div class="kpi-footer">
+                    <span class="kpi-subtext">Monto reportado en tabla origen</span>
+                </div>
+            </div>
+
+            <!-- Ficha 4: Partidas con Errores de Captura -->
+            <div class="kpi-card danger" id="cardErrores">
+                <div class="kpi-header">
+                    <span class="kpi-title">Partidas con Errores de Captura</span>
+                    <span class="kpi-badge danger">ALMACÉN VS SICOP</span>
+                </div>
+                <div class="kpi-value" id="kpiErrorCount">582</div>
+                <div class="kpi-footer">
+                    <span class="kpi-subtext">Renglones con diferencia en captura</span>
+                </div>
+            </div>
+
+            <!-- Ficha 5: Sobrante Total Liberable -->
+            <div class="kpi-card success" id="cardSobrante">
+                <div class="kpi-header">
+                    <span class="kpi-title">Sobrante Total Liberable</span>
+                    <span class="kpi-badge success">52 CONTRATOS</span>
+                </div>
+                <div class="kpi-value" id="kpiSobranteTotal">$12,338,383</div>
+                <div class="kpi-footer">
+                    <span class="kpi-trend positive">Presupuesto libre para reasignar</span>
+                </div>
+            </div>
+
+            <!-- Ficha 6: Faltante por Cobertura -->
+            <div class="kpi-card danger" id="cardFaltante">
+                <div class="kpi-header">
+                    <span class="kpi-title">Faltante por Cobertura</span>
+                    <span class="kpi-badge danger">43 CONTRATOS (CM1)</span>
+                </div>
+                <div class="kpi-value" id="kpiFaltanteTotal">$10,806,312</div>
+                <div class="kpi-footer">
+                    <span class="kpi-subtext">Requiere ampliación de suficiencia</span>
+                </div>
+            </div>
+
+            <!-- Ficha 7: Pendiente por Registrar ("NO en SICOP") -->
+            <div class="kpi-card warning" id="cardPendiente">
+                <div class="kpi-header">
+                    <span class="kpi-title">Pendiente por Registrar en SICOP</span>
+                    <span class="kpi-badge warning" id="kpiPendienteCount">295 PARTIDAS</span>
+                </div>
+                <div class="kpi-value" id="kpiPendiente">$188,469,400</div>
+                <div class="kpi-footer">
+                    <span class="kpi-subtext">Estatus "NO en SICOP" (En revisión)</span>
+                </div>
+            </div>
+
+            <!-- Ficha 8: Saldo Neto a Favor INPER -->
+            <div class="kpi-card primary" id="cardSaldoNeto">
+                <div class="kpi-header">
+                    <span class="kpi-title">Saldo Neto a Favor</span>
+                    <span class="kpi-badge info">SUPERÁVIT NETO</span>
+                </div>
+                <div class="kpi-value" id="kpiSaldoNeto">$1,532,071</div>
+                <div class="kpi-footer">
+                    <span class="kpi-subtext">Sobrante > Faltante (+1.53 MDP)</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Navigation Tabs -->
+        <nav class="nav-tabs">
+            <button class="tab-btn active" data-tab="tab-matrix">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
+                Buscador y Matriz Completa
+            </button>
+            <button class="tab-btn" data-tab="tab-summary">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9"></rect><rect x="14" y="3" width="7" height="5"></rect><rect x="14" y="12" width="7" height="9"></rect><rect x="3" y="16" width="7" height="5"></rect></svg>
+                Resumen Ejecutivo
+            </button>
+            <button class="tab-btn" data-tab="tab-roadmap">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg>
+                Plan de Acción: Sobrantes y Faltantes
+            </button>
+            <button class="tab-btn" data-tab="tab-errors">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg>
+                Auditoría de Errores (Almacén vs. SICOP)
+            </button>
+            <button class="tab-btn" data-tab="tab-partida-contrato">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
+                Análisis por Partida y Contrato
+            </button>
+            <button class="tab-btn" data-tab="tab-capitulos">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                Capítulos 2000 y 3000
+            </button>
+        </nav>
+
+        <!-- Global Filter Bar -->
+        <section class="filter-bar">
+            <div class="filter-group search-box">
+                <label>Buscar Contrato / PCOM # / Proveedor / Fila Excel:</label>
+                <div class="search-input-wrapper">
+                    <input type="text" id="searchInput" placeholder="Escribe aquí (ej. PCOM #7284, Fila 892, 007/2026, VILAB)...">
+                    <button type="button" id="btnSearchTrigger" class="search-icon-btn" title="Buscar en todo el sistema">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+                        <span>Buscar</span>
+                    </button>
+                </div>
+            </div>
+            <div class="filter-group">
+                <label>Capítulo Presupuestal:</label>
+                <select id="filterCapitulo">
+                    <option value="ALL">Todos los Capítulos</option>
+                    <option value="2000">Capítulo 2000 (Materiales y Suministros)</option>
+                    <option value="3000">Capítulo 3000 (Servicios Generales)</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Comprometido en SICOP:</label>
+                <select id="filterSicop">
+                    <option value="ALL">Todos los Estatus (Con y Sin Folio)</option>
+                    <option value="SI">SI (Comprometido con Folio PCOM)</option>
+                    <option value="NO">NO (Sin Folio PCOM / Pendiente)</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Prioridad:</label>
+                <select id="filterPrioridad">
+                    <option value="ALL">Todas las Prioridades</option>
+                    <option value="ALTA">Prioridad ALTA</option>
+                    <option value="CRÍTICA">Prioridad CRÍTICA</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Anexo:</label>
+                <select id="filterAnexo">
+                    <option value="ALL">Todos los Anexos</option>
+                    <option value="Anexo 1.1">Anexo 1.1 (Medicamentos)</option>
+                    <option value="Anexo 2.1">Anexo 2.1 (Mat. Curación)</option>
+                    <option value="Anexo 2.2">Anexo 2.2 (Mat. Curación Esp)</option>
+                    <option value="Anexo 3">Anexo 3 (Servicios Integrales)</option>
+                    <option value="Anexo 5">Anexo 5 (Plurianuales/Otros)</option>
+                </select>
+            </div>
+            <button class="btn btn-reset" id="btnResetFilters">Limpiar Filtros</button>
+        </section>
+
+        <!-- Tab Contents -->
+        <!-- Tab 1: Matriz de Auditoría y Buscador (FIRST BY DEFAULT) -->
+        <div id="tab-matrix" class="tab-pane active">
+            <div class="card table-card">
+                <div class="card-header table-header-actions">
+                    <div>
+                        <h3>Matriz Completa de Contratos y Partidas (Con y Sin Folio PCOM)</h3>
+                        <span class="card-subtitle" id="tableRecordCount">Mostrando 903 registros</span>
+                    </div>
+                    <div class="table-actions" style="display:flex; gap:10px; align-items:center;">
+                        <a href="Pruebareporteejecutivo_validado_PCOM_CM_correcto.xlsx" download="Pruebareporteejecutivo_validado_PCOM_CM_correcto.xlsx" class="btn btn-success btn-sm" style="background:#059669; color:white; text-decoration:none; display:inline-flex; align-items:center; gap:6px; font-weight:600;" title="Descargar archivo Excel original tal cual">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                            Descargar Excel Validado (.xlsx)
+                        </a>
+                        <button id="btnExportCSV" class="btn btn-secondary btn-sm">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                            Exportar Filtro Actual (CSV)
+                        </button>
+                    </div>
+                </div>
+
+                <div class="table-responsive">
+                    <table class="data-table interactive-table" id="mainDataTable">
+                        <thead>
+                            <tr>
+                                <th data-sort="fila_excel">RENGLÓN EXCEL ↕</th>
+                                <th data-sort="no_compromiso">FOLIO PCOM ↕</th>
+                                <th data-sort="contrato">NO. CONTRATO ↕</th>
+                                <th data-sort="proveedor">PROVEEDOR ↕</th>
+                                <th data-sort="capitulo">CAP. ↕</th>
+                                <th data-sort="comprometido_sicop">EN SICOP ↕</th>
+                                <th data-sort="autorizado" class="text-right">AUTORIZADO ↕</th>
+                                <th data-sort="sicop_mod" class="text-right">SICOP MODIFICADO ↕</th>
+                                <th data-sort="dif_mod" class="text-right">DIFERENCIA ↕</th>
+                                <th class="text-center">ACCIÓN</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tbodyMainData">
+                            <!-- Populated dynamically -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination-container">
+                    <div class="pagination-info" id="paginationInfo">Mostrando 1-25 de 903</div>
+                    <div class="pagination-controls">
+                        <button id="btnPrevPage" class="btn btn-sm btn-secondary">Anterior</button>
+                        <span id="pageIndicator" class="page-indicator">Página 1 de 37</span>
+                        <button id="btnNextPage" class="btn btn-sm btn-secondary">Siguiente</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 2: Resumen Ejecutivo -->
+        <div id="tab-summary" class="tab-pane">
+            <div class="dashboard-row">
+                <div class="card chart-card flex-2">
+                    <div class="card-header">
+                        <h3>Distribución de Presupuesto Autorizado por Capítulo ($MXN)</h3>
+                        <span class="card-subtitle">Comparativa entre Capítulo 2000 y Capítulo 3000</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chartCapitulos"></canvas>
+                    </div>
+                </div>
+
+                <div class="card chart-card flex-1">
+                    <div class="card-header">
+                        <h3>Estatus de Registro en SICOP</h3>
+                        <span class="card-subtitle">Proporción por número de partidas</span>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="chartEstatusSicop"></canvas>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-row">
+                <div class="card table-card flex-1">
+                    <div class="card-header">
+                        <h3>Diagnóstico Ejecutivo para la Dirección de Administración</h3>
+                    </div>
+                    <div class="executive-summary-text">
+                        <div class="summary-point" onclick="switchTab('tab-matrix')">
+                            <div class="point-badge green">1</div>
+                            <div class="point-content">
+                                <h4>Conciliación de Suficiencia Presupuestal Al 99.5%</h4>
+                                <p>Del presupuesto autorizado validado de <strong>$303.42 MDP</strong>, el sistema SICOP registra compromisos vigentes por <strong>$301.88 MDP</strong>, lo que representa una alineación casi perfecta (diferencia neta de únicamente <strong>$1.53 MDP</strong>).</p>
+                            </div>
+                        </div>
+
+                        <div class="summary-point" onclick="switchTab('tab-errors')">
+                            <div class="point-badge blue">2</div>
+                            <div class="point-content">
+                                <h4>Comparativa de Fuentes: SICOP vs Almacén INPER</h4>
+                                <p>El reporte elaborado por Almacén sumó <strong>$299.63 MDP</strong> debido a 582 renglones con discrepancias de captura (omisión de importes o registro parcial de suficiencias). El cruce con SICOP rectifica el total a <strong>$301.88 MDP</strong>.</p>
+                            </div>
+                        </div>
+
+                        <div class="summary-point" onclick="switchTab('tab-roadmap')">
+                            <div class="point-badge amber">3</div>
+                            <div class="point-content">
+                                <h4>Plan de Recompensación: Sobrantes ($12.34 MDP) vs Faltantes ($10.81 MDP)</h4>
+                                <p>Existen 52 contratos con sobrante de suficiencia por <strong>$12.34 MDP</strong> que permiten compensar al 100% los 43 contratos con faltante (<strong>$10.81 MDP</strong>) dejando un superávit neto a favor del INPER de <strong>+$1.53 MDP</strong>.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 3: Roadmap / Plan de Acción -->
+        <div id="tab-roadmap" class="tab-pane">
+            <div class="dashboard-row">
+                <div class="card table-card flex-1">
+                    <div class="card-header">
+                        <h3>Contratos con SOBRANTE Presupuestal (Suficiencia Libre para Reasignar)</h3>
+                        <span class="card-subtitle">52 contratos donde la suficiencia autorizada excede lo comprometido en SICOP ($12.34 MDP Total)</span>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Folio PCOM</th>
+                                    <th>Contrato</th>
+                                    <th>Proveedor</th>
+                                    <th>Cap.</th>
+                                    <th>Suficiencia INPER</th>
+                                    <th>Comprometido SICOP</th>
+                                    <th>Sobrante Reasignable</th>
+                                    <th>Acción Recomendada</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodySobrantes">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-row">
+                <div class="card table-card flex-1">
+                    <div class="card-header">
+                        <h3>Contratos con FALTANTE Presupuestal (Requieren Cobertura o Ampliación)</h3>
+                        <span class="card-subtitle">43 contratos (principalmente Convenios Modificatorios CM1) que exceden la suficiencia original ($10.81 MDP Total)</span>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Folio PCOM</th>
+                                    <th>Contrato</th>
+                                    <th>Proveedor</th>
+                                    <th>Cap.</th>
+                                    <th>Suficiencia Cargada</th>
+                                    <th>Comprometido SICOP</th>
+                                    <th>Faltante Requerido</th>
+                                    <th>Acción Recomendada</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyFaltantes">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 4: Auditoría de Errores -->
+        <div id="tab-errors" class="tab-pane">
+            <div class="dashboard-row">
+                <div class="card table-card flex-1">
+                    <div class="card-header">
+                        <h3>Auditoría de Errores de Captura: Almacén INPER vs. SICOP</h3>
+                        <span class="card-subtitle">Listado con Folio PCOM, Número de Fila en Excel y Diagnóstico Operativo</span>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>No. Reg</th>
+                                    <th>Fila Excel</th>
+                                    <th>Folio PCOM</th>
+                                    <th>No. Contrato</th>
+                                    <th>Proveedor</th>
+                                    <th>SICOP Modificado</th>
+                                    <th>Reportado Almacén</th>
+                                    <th>Diferencia</th>
+                                    <th>¿Qué Pasó en este Renglón? (Diagnóstico)</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyErrorsAudit">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 5: Análisis por Partida y Contrato -->
+        <div id="tab-partida-contrato" class="tab-pane">
+            <div class="dashboard-row">
+                <div class="card table-card flex-1">
+                    <div class="card-header">
+                        <h3>Análisis por Partida Presupuestal Específica (30 Partidas)</h3>
+                        <span class="card-subtitle">Agregación de presupuesto autorizado e importes en SICOP por clave de partida</span>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Partida</th>
+                                    <th>Capítulo</th>
+                                    <th>Concepto Principal</th>
+                                    <th>Partidas Renglón</th>
+                                    <th>Autorizado INPER</th>
+                                    <th>Registrado SICOP</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyPartidaAnalysis">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-row">
+                <div class="card table-card flex-1">
+                    <div class="card-header">
+                        <h3>Análisis por Contrato Principal (Top Contratos por Suficiencia)</h3>
+                        <span class="card-subtitle">Desglose deduplicado por número de contrato, Folio PCOM, proveedor y partidas asociadas</span>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Folio PCOM</th>
+                                    <th>No. Contrato</th>
+                                    <th>Proveedor</th>
+                                    <th>Cap.</th>
+                                    <th>Partidas Spanned</th>
+                                    <th>Monto Max CTO</th>
+                                    <th>Suficiencia Autorizada</th>
+                                    <th>SICOP Modificado</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyContratoAnalysis">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tab 6: Capítulos 2000 y 3000 -->
+        <div id="tab-capitulos" class="tab-pane">
+            <div class="capitulos-comparison-grid">
+                <div class="cap-card cap-2000" onclick="document.getElementById('filterCapitulo').value='2000'; filterCapitulo='2000'; switchTab('tab-matrix'); renderDashboard();">
+                    <div class="cap-header">
+                        <div class="cap-title">
+                            <h2>Capítulo 2000</h2>
+                            <p>Materiales y Suministros</p>
+                        </div>
+                        <div class="cap-badge">610 Partidas</div>
+                    </div>
+                    <div class="cap-body">
+                        <div class="cap-metric">
+                            <span class="lbl">Suficiencia Autorizada:</span>
+                            <span class="val">$71,861,319 MXN</span>
+                        </div>
+                        <div class="cap-metric">
+                            <span class="lbl">Comprometido en SICOP:</span>
+                            <span class="val text-success">$128,408,288 MXN*</span>
+                        </div>
+                        <div class="cap-metric">
+                            <span class="lbl">Monto Pagado / Ejercido:</span>
+                            <span class="val text-info">$70,166,849 MXN</span>
+                        </div>
+                        <div class="cap-progress-wrapper">
+                            <div class="cap-progress-label">
+                                <span>Avance de Ejercicio de Suficiencia:</span>
+                                <strong>97.6%</strong>
+                            </div>
+                            <div class="progress-bar"><div class="progress-fill green" style="width: 97.6%"></div></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cap-card cap-3000" onclick="document.getElementById('filterCapitulo').value='3000'; filterCapitulo='3000'; switchTab('tab-matrix'); renderDashboard();">
+                    <div class="cap-header">
+                        <div class="cap-title">
+                            <h2>Capítulo 3000</h2>
+                            <p>Servicios Generales</p>
+                        </div>
+                        <div class="cap-badge">291 Partidas</div>
+                    </div>
+                    <div class="cap-body">
+                        <div class="cap-metric">
+                            <span class="lbl">Suficiencia Autorizada:</span>
+                            <span class="val">$231,555,478 MXN</span>
+                        </div>
+                        <div class="cap-metric">
+                            <span class="lbl">Comprometido en SICOP:</span>
+                            <span class="val text-success">$922,799,446 MXN*</span>
+                        </div>
+                        <div class="cap-metric">
+                            <span class="lbl">Monto Pagado / Ejercido:</span>
+                            <span class="val text-info">$229,462,489 MXN</span>
+                        </div>
+                        <div class="cap-progress-wrapper">
+                            <div class="cap-progress-label">
+                                <span>Avance de Ejercicio de Suficiencia:</span>
+                                <strong>99.1%</strong>
+                            </div>
+                            <div class="progress-bar"><div class="progress-fill blue" style="width: 99.1%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card chart-card">
+                <div class="card-header">
+                    <h3>Comparativa de Autorizado vs Comprometido Registrado por Capítulo</h3>
+                </div>
+                <div class="chart-container">
+                    <canvas id="chartCapitulosBar"></canvas>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Modal Detalle del Contrato -->
+    <div class="modal-overlay" id="contractModal">
+        <div class="modal-card">
+            <div class="modal-header">
+                <div>
+                    <h2 id="modalContractTitle">Contrato: 3011/2026</h2>
+                    <p id="modalContractVendor">Proveedor: COMPAÑIA VILAB SA DE CV</p>
+                </div>
+                <button class="modal-close" onclick="closeModal()">✕</button>
+            </div>
+            <div class="modal-body" id="modalContractBody">
+                <!-- Content injected dynamically -->
+            </div>
+            <div class="modal-footer">
+                <button class="btn btn-secondary" onclick="closeModal()">Cerrar</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script App -->
+    <script src="app.js"></script>
+</body>
+</html>

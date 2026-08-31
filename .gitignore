@@ -1,0 +1,10 @@
+# Temporary & OS files
+.DS_Store
+Thumbs.db
+*.log
+__pycache__/
+*.pyc
+
+# Local system dirs
+.vscode/
+.idea/
