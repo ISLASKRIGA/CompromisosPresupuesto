@@ -194,7 +194,7 @@ function openKpiDetailModal(type) {
         bodyHtml += `</tbody></table></div>`;
     } else if (type === 'almacen') {
         title = "Detalle: Reportado por Almacén ($299,629,338.45 MXN)";
-        vendorSub = "Cifras capturadas en la tabla origen de Almacén";
+        vendorSub = "Cifras capturadas por el Área de Almacén";
         bodyHtml = `
             <div class="modal-detail-grid">
                 <div class="modal-detail-item">
