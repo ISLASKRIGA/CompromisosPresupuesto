@@ -893,9 +893,6 @@ function renderPartidaAndContratoAnalysis(records, contracts) {
                 ? `<span class="kpi-badge info"><strong>${c.no_compromiso}</strong></span>` 
                 : `<span class="kpi-badge warning"><strong>SIN FOLIO COMPROMISO</strong></span>`;
             
-            const difPag = c.dif_pagado_contract || (c.pagado_sicop_sum - c.pagado_almacen_sum);
-            const difPagClass = Math.abs(difPag) > 0.01 ? 'text-danger' : 'text-success';
-
             const difEjer = c.dif_ejercer_contract || (c.ejercer_sicop_sum - c.ejercer_est_sum);
             const difEjerClass = Math.abs(difEjer) > 0.01 ? 'text-danger' : 'text-success';
 
@@ -909,7 +906,6 @@ function renderPartidaAndContratoAnalysis(records, contracts) {
                     <td><strong>${formatCurrency(c.autorizado_sum)}</strong></td>
                     <td class="text-success"><strong>${formatCurrency(c.sicop_mod)}</strong></td>
                     <td style="color:#1e3a8a"><strong>${formatCurrency(c.pagado_sicop_sum)}</strong></td>
-                    <td class="${difPagClass}"><strong>${formatCurrency(difPag)}</strong></td>
                     <td style="color:#0284c7"><strong>${formatCurrency(c.ejercer_sicop_sum)}</strong></td>
                     <td style="color:#7c3aed"><strong>${formatCurrency(c.ejercer_est_sum)}</strong></td>
                     <td class="${difEjerClass}"><strong>${formatCurrency(difEjer)}</strong></td>
