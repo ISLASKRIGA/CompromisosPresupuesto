@@ -155,7 +155,7 @@
         <nav class="nav-tabs">
             <button class="tab-btn active" data-tab="tab-partida-contrato">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line></svg>
-                Análisis por Partida y Contrato
+                Análisis por Contrato y Partida
             </button>
             <button class="tab-btn" data-tab="tab-matrix">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
@@ -499,35 +499,8 @@
             </div>
         </div>
 
-        <!-- Tab 5: Análisis por Partida y Contrato (FIRST BY DEFAULT) -->
+        <!-- Tab 5: Análisis por Contrato y Partida (FIRST BY DEFAULT) -->
         <div id="tab-partida-contrato" class="tab-pane active">
-            <div class="dashboard-row">
-                <div class="card table-card flex-1">
-                    <div class="card-header">
-                        <h3>Análisis por Partida Presupuestal Específica (30 Partidas)</h3>
-                        <span class="card-subtitle">Agregación de presupuesto autorizado e importes en SICOP por clave de partida</span>
-                    </div>
-                    <div class="table-responsive">
-                        <table class="data-table">
-                            <thead>
-                                <tr>
-                                    <th>Partida</th>
-                                    <th>Capítulo</th>
-                                    <th>Concepto Principal</th>
-                                    <th>Partidas Renglón</th>
-                                    <th>Autorizado INPER</th>
-                                    <th>Registrado SICOP</th>
-                                    <th>Disponible Presupuestal</th>
-                                </tr>
-                            </thead>
-                            <tbody id="tbodyPartidaAnalysis">
-                                <!-- Populated dynamically -->
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </div>
-
             <div class="dashboard-row">
                 <div class="card table-card flex-1">
                     <div class="card-header">
@@ -552,6 +525,33 @@
                                 </tr>
                             </thead>
                             <tbody id="tbodyContratoAnalysis">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+
+            <div class="dashboard-row">
+                <div class="card table-card flex-1">
+                    <div class="card-header">
+                        <h3>Análisis por Partida Presupuestal Específica (30 Partidas)</h3>
+                        <span class="card-subtitle">Agregación de presupuesto autorizado e importes en SICOP por clave de partida</span>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table">
+                            <thead>
+                                <tr>
+                                    <th>Partida</th>
+                                    <th>Capítulo</th>
+                                    <th>Concepto Principal</th>
+                                    <th>Partidas Renglón</th>
+                                    <th>Autorizado INPER</th>
+                                    <th>Registrado SICOP</th>
+                                    <th>Disponible Presupuestal</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyPartidaAnalysis">
                                 <!-- Populated dynamically -->
                             </tbody>
                         </table>
