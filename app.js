@@ -125,7 +125,7 @@ function openKpiDetailModal(type) {
                 <table class="data-table compact">
                     <thead>
                         <tr>
-                            <th>Folio PCOM</th>
+                            <th>Folio Compromiso</th>
                             <th>Contrato</th>
                             <th>Proveedor</th>
                             <th>Capítulo</th>
@@ -136,9 +136,9 @@ function openKpiDetailModal(type) {
                     <tbody>
         `;
         contracts.sort((a,b)=>b.autorizado_sum - a.autorizado_sum).slice(0, 30).forEach(c => {
-            const hasFolio = c.no_compromiso && c.no_compromiso !== 'SIN PCOM';
+            const hasFolio = c.no_compromiso && c.no_compromiso !== 'SIN COMPROMISO';
             const badgeClass = hasFolio ? 'info' : 'warning';
-            const badgeText = hasFolio ? c.no_compromiso : 'SIN FOLIO PCOM';
+            const badgeText = hasFolio ? c.no_compromiso : 'SIN FOLIO COMPROMISO';
             bodyHtml += `
                 <tr onclick="openContractModal('${c.contrato}')" style="cursor:pointer">
                     <td><span class="kpi-badge ${badgeClass}">${badgeText}</span></td>
@@ -153,7 +153,7 @@ function openKpiDetailModal(type) {
         bodyHtml += `</tbody></table></div>`;
     } else if (type === 'sicop') {
         title = "Detalle: Registro Oficial en SICOP ($301,884,723.18 MXN)";
-        vendorSub = "Contratos formalizados y vinculados con folio PCOM extraídos de 12_289810_EXT_COMPROMISO_PCOM.csv";
+        vendorSub = "Contratos formalizados y vinculados con folio compromiso extraídos de 12_289810_EXT_COMPROMISO_PCOM.csv";
         const siContracts = contracts.filter(c => c.comprometido_sicop.toUpperCase() === 'SI');
         bodyHtml = `
             <div class="modal-detail-grid">
@@ -171,7 +171,7 @@ function openKpiDetailModal(type) {
                 <table class="data-table compact">
                     <thead>
                         <tr>
-                            <th>Folio PCOM</th>
+                            <th>Folio Compromiso</th>
                             <th>Contrato</th>
                             <th>Proveedor</th>
                             <th>Monto Máximo</th>
@@ -183,7 +183,7 @@ function openKpiDetailModal(type) {
         siContracts.sort((a,b)=>b.sicop_mod - a.sicop_mod).slice(0, 30).forEach(c => {
             bodyHtml += `
                 <tr onclick="openContractModal('${c.contrato}')" style="cursor:pointer">
-                    <td><span class="kpi-badge success">${c.no_compromiso || 'SIN FOLIO PCOM'}</span></td>
+                    <td><span class="kpi-badge success">${c.no_compromiso || 'SIN FOLIO COMPROMISO'}</span></td>
                     <td><strong style="color:#1e40af">${c.contrato}</strong></td>
                     <td>${c.proveedor.substring(0, 25)}</td>
                     <td>${formatCurrency(c.monto_max)}</td>
@@ -213,7 +213,7 @@ function openKpiDetailModal(type) {
                         <tr>
                             <th>No. Reg</th>
                             <th>Fila Excel</th>
-                            <th>Folio PCOM</th>
+                            <th>Folio Compromiso</th>
                             <th>Contrato</th>
                             <th>SICOP Modificado</th>
                             <th>Reportado Almacén</th>
@@ -223,8 +223,8 @@ function openKpiDetailModal(type) {
                     <tbody>
         `;
         records.filter(r => Math.abs(r.dif_mod)>0.01).sort((a,b)=>Math.abs(b.dif_mod)-Math.abs(a.dif_mod)).slice(0, 30).forEach(r => {
-            const hasFolio = r.no_compromiso && r.no_compromiso !== 'SIN PCOM';
-            const pcomBadge = hasFolio ? `<span class="kpi-badge success">${r.no_compromiso}</span>` : `<span class="kpi-badge warning">SIN FOLIO PCOM</span>`;
+            const hasFolio = r.no_compromiso && r.no_compromiso !== 'SIN COMPROMISO';
+            const pcomBadge = hasFolio ? `<span class="kpi-badge success">${r.no_compromiso}</span>` : `<span class="kpi-badge warning">SIN FOLIO COMPROMISO</span>`;
             bodyHtml += `
                 <tr onclick="openContractModal('${r.contrato}')" style="cursor:pointer">
                     <td><strong>${r.id}</strong></td>
@@ -240,7 +240,7 @@ function openKpiDetailModal(type) {
         bodyHtml += `</tbody></table></div>`;
     } else if (type === 'errores') {
         title = "Detalle: Auditoría de 582 Errores de Captura Almacén vs SICOP";
-        vendorSub = "Inconsistencias con Folio PCOM en SICOP y Fila en Excel";
+        vendorSub = "Inconsistencias con Folio Compromiso en SICOP y Fila en Excel";
         const errorRecs = records.filter(r => Math.abs(r.dif_mod)>0.01).sort((a,b)=>Math.abs(b.dif_mod)-Math.abs(a.dif_mod));
         bodyHtml = `
             <div class="modal-detail-grid">
@@ -253,14 +253,14 @@ function openKpiDetailModal(type) {
                     <span class="text-danger">${formatCurrency(errorRecs.reduce((a,r)=>a+r.dif_mod,0))}</span>
                 </div>
             </div>
-            <h4 style="margin: 1rem 0 0.5rem; font-family: var(--font-heading);">Renglones con Folio PCOM y Fila Excel:</h4>
+            <h4 style="margin: 1rem 0 0.5rem; font-family: var(--font-heading);">Renglones con Folio Compromiso y Fila Excel:</h4>
             <div class="table-responsive">
                 <table class="data-table compact">
                     <thead>
                         <tr>
                             <th>No. Reg</th>
                             <th>Fila Excel</th>
-                            <th>Folio PCOM</th>
+                            <th>Folio Compromiso</th>
                             <th>Contrato</th>
                             <th>SICOP Modificado</th>
                             <th>Reportado Almacén</th>
@@ -270,8 +270,8 @@ function openKpiDetailModal(type) {
                     <tbody>
         `;
         errorRecs.slice(0, 30).forEach(r => {
-            const hasFolio = r.no_compromiso && r.no_compromiso !== 'SIN PCOM';
-            const pcomBadge = hasFolio ? `<span class="kpi-badge success">${r.no_compromiso}</span>` : `<span class="kpi-badge warning">SIN FOLIO PCOM</span>`;
+            const hasFolio = r.no_compromiso && r.no_compromiso !== 'SIN COMPROMISO';
+            const pcomBadge = hasFolio ? `<span class="kpi-badge success">${r.no_compromiso}</span>` : `<span class="kpi-badge warning">SIN FOLIO COMPROMISO</span>`;
             bodyHtml += `
                 <tr onclick="openContractModal('${r.contrato}')" style="cursor:pointer">
                     <td><strong>${r.id}</strong></td>
@@ -368,8 +368,8 @@ function openKpiDetailModal(type) {
         });
         bodyHtml += `</tbody></table></div>`;
     } else if (type === 'pendiente') {
-        title = "Detalle: Suficiencia 2026 Sin Folio PCOM ($2,092,989.00 MXN)";
-        vendorSub = "Partidas 2026 marcadas 'NO en SICOP' (Sin Folio PCOM) que requieren vinculación";
+        title = "Detalle: Suficiencia 2026 Sin Folio Compromiso ($2,092,989.00 MXN)";
+        vendorSub = "Partidas 2026 marcadas 'NO en SICOP' (Sin Folio Compromiso) que requieren vinculación";
         const noRecords = records.filter(r => r.comprometido_sicop.toUpperCase() === 'NO');
         const noAutorizadoSum = noRecords.reduce((acc, r) => acc + r.autorizado, 0);
         bodyHtml = `
@@ -379,18 +379,18 @@ function openKpiDetailModal(type) {
                     <span style="color:#d97706">${formatCurrency(noAutorizadoSum)}</span>
                 </div>
                 <div class="modal-detail-item">
-                    <label>Partidas Sin Folio PCOM:</label>
+                    <label>Partidas Sin Folio Compromiso:</label>
                     <span>${noRecords.length} Renglones</span>
                 </div>
             </div>
-            <h4 style="margin: 1rem 0 0.5rem; font-family: var(--font-heading);">Partidas 2026 Sin Folio PCOM Registradas:</h4>
+            <h4 style="margin: 1rem 0 0.5rem; font-family: var(--font-heading);">Partidas 2026 Sin Folio Compromiso Registradas:</h4>
             <div class="table-responsive">
                 <table class="data-table compact">
                     <thead>
                         <tr>
                             <th>No. Reg</th>
                             <th>Fila Excel</th>
-                            <th>Folio PCOM</th>
+                            <th>Folio Compromiso</th>
                             <th>Contrato</th>
                             <th>Proveedor</th>
                             <th>Autorizado INPER</th>
@@ -404,7 +404,7 @@ function openKpiDetailModal(type) {
                 <tr onclick="openContractModal('${r.contrato}')" style="cursor:pointer">
                     <td>${r.id}</td>
                     <td><span class="kpi-badge warning">${r.fila_excel || ('Fila ' + (r.id+1))}</span></td>
-                    <td><span class="kpi-badge warning">SIN FOLIO PCOM</span></td>
+                    <td><span class="kpi-badge warning">SIN FOLIO COMPROMISO</span></td>
                     <td><strong style="color:#1e40af">${r.contrato || 'SIN CONTRATO'}</strong></td>
                     <td>${r.proveedor.substring(0, 25)}</td>
                     <td><strong>${formatCurrency(r.autorizado)}</strong></td>
@@ -736,8 +736,8 @@ function renderRoadmapTables() {
     if (tbodySobrantes) {
         let html = '';
         actionableData.sobrantes.forEach(s => {
-            const hasFolio = s.no_compromiso && s.no_compromiso !== 'SIN PCOM';
-            const pcomStr = hasFolio ? s.no_compromiso : 'SIN FOLIO PCOM';
+            const hasFolio = s.no_compromiso && s.no_compromiso !== 'SIN COMPROMISO';
+            const pcomStr = hasFolio ? s.no_compromiso : 'SIN FOLIO COMPROMISO';
             const badgeClass = hasFolio ? 'success' : 'warning';
             html += `
                 <tr onclick="openContractModal('${s.contrato}')" style="cursor:pointer">
@@ -760,8 +760,8 @@ function renderRoadmapTables() {
     if (tbodyFaltantes) {
         let html = '';
         actionableData.faltantes.forEach(f => {
-            const hasFolio = f.no_compromiso && f.no_compromiso !== 'SIN PCOM';
-            const pcomStr = hasFolio ? f.no_compromiso : 'SIN FOLIO PCOM';
+            const hasFolio = f.no_compromiso && f.no_compromiso !== 'SIN COMPROMISO';
+            const pcomStr = hasFolio ? f.no_compromiso : 'SIN FOLIO COMPROMISO';
             const badgeClass = hasFolio ? 'danger' : 'warning';
             html += `
                 <tr onclick="openContractModal('${f.contrato}')" style="cursor:pointer">
@@ -790,10 +790,10 @@ function renderErrorsAuditTable(records) {
     let html = '';
     errorRecords.slice(0, 100).forEach(r => {
         let excelRowStr = r.fila_excel || ('Fila ' + (r.id + 1));
-        const hasFolio = r.no_compromiso && r.no_compromiso !== 'SIN PCOM';
+        const hasFolio = r.no_compromiso && r.no_compromiso !== 'SIN COMPROMISO';
         const pcomBadge = hasFolio 
             ? `<span class="kpi-badge info"><strong>${r.no_compromiso}</strong></span>` 
-            : `<span class="kpi-badge warning"><strong>SIN FOLIO PCOM</strong></span>`;
+            : `<span class="kpi-badge warning"><strong>SIN FOLIO COMPROMISO</strong></span>`;
 
         html += `
             <tr onclick="openContractModal('${r.contrato}')" style="cursor:pointer">
@@ -858,10 +858,10 @@ function renderPartidaAndContratoAnalysis(records, contracts) {
         const sortedContracts = [...contracts].sort((a, b) => b.autorizado_sum - a.autorizado_sum).slice(0, 15);
         let ctoHtml = '';
         sortedContracts.forEach(c => {
-            const hasFolio = c.no_compromiso && c.no_compromiso !== 'SIN PCOM';
+            const hasFolio = c.no_compromiso && c.no_compromiso !== 'SIN COMPROMISO';
             const pcomBadge = hasFolio 
                 ? `<span class="kpi-badge info"><strong>${c.no_compromiso}</strong></span>` 
-                : `<span class="kpi-badge warning"><strong>SIN FOLIO PCOM</strong></span>`;
+                : `<span class="kpi-badge warning"><strong>SIN FOLIO COMPROMISO</strong></span>`;
             ctoHtml += `
                 <tr onclick="openContractModal('${c.contrato}')" style="cursor:pointer">
                     <td>${pcomBadge}</td>
@@ -1042,10 +1042,10 @@ function renderMainTable(dataList) {
         const isContract = currentMode === 'contract';
         const excelRowStr = item.fila_excel || (isContract ? 'Contrato' : ('Fila ' + (item.id + 1)));
         
-        const hasFolio = item.no_compromiso && item.no_compromiso !== 'SIN PCOM';
+        const hasFolio = item.no_compromiso && item.no_compromiso !== 'SIN COMPROMISO';
         const pcomBadge = hasFolio 
             ? `<span class="kpi-badge info"><strong>${item.no_compromiso}</strong></span>` 
-            : `<span class="kpi-badge warning"><strong>SIN FOLIO PCOM</strong></span>`;
+            : `<span class="kpi-badge warning"><strong>SIN FOLIO COMPROMISO</strong></span>`;
 
         const contrato = item.contrato || 'N/A';
         const prov = item.proveedor || 'N/A';
@@ -1118,11 +1118,11 @@ function openContractModal(contratoId) {
     const contractObj = rawData.contracts.find(c => c.contrato === contratoId);
     const relatedRecords = rawData.records.filter(r => r.contrato === contratoId);
     
-    const hasFolio = contractObj && contractObj.no_compromiso && contractObj.no_compromiso !== 'SIN PCOM';
-    const pcomStr = hasFolio ? contractObj.no_compromiso : 'SIN FOLIO PCOM';
+    const hasFolio = contractObj && contractObj.no_compromiso && contractObj.no_compromiso !== 'SIN COMPROMISO';
+    const pcomStr = hasFolio ? contractObj.no_compromiso : 'SIN FOLIO COMPROMISO';
     const pcomBadge = hasFolio 
         ? `<val style="color:#059669">${pcomStr}</val>` 
-        : `<val style="color:#d97706">SIN FOLIO PCOM</val>`;
+        : `<val style="color:#d97706">SIN FOLIO COMPROMISO</val>`;
 
     const reservaStr = contractObj ? (contractObj.no_reserva || 'N/A') : 'N/A';
     const ctoExtStr = contractObj ? (contractObj.ctoext || contratoId) : contratoId;
@@ -1148,7 +1148,7 @@ function openContractModal(contratoId) {
             </div>
             <div class="flow-arrow">➔</div>
             <div class="flow-step">
-                <label>2. Folio PCOM</label>
+                <label>2. Folio Compromiso</label>
                 ${pcomBadge}
             </div>
             <div class="flow-arrow">➔</div>

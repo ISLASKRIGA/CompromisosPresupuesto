@@ -126,10 +126,10 @@
                 </div>
             </div>
 
-            <!-- Ficha 7: Suficiencia 2026 Sin Folio PCOM (Corregida a Suficiencia Real 2026) -->
+            <!-- Ficha 7: Suficiencia 2026 Sin Folio Compromiso (Corregida a Suficiencia Real 2026) -->
             <div class="kpi-card warning" id="cardPendiente">
                 <div class="kpi-header">
-                    <span class="kpi-title">Suficiencia 2026 Sin Folio PCOM</span>
+                    <span class="kpi-title">Suficiencia 2026 Sin Folio Compromiso</span>
                     <span class="kpi-badge warning" id="kpiPendienteCount">295 PARTIDAS</span>
                 </div>
                 <div class="kpi-value" id="kpiPendiente">$2,092,989.00</div>
@@ -186,9 +186,9 @@
         <!-- Global Filter Bar -->
         <section class="filter-bar">
             <div class="filter-group search-box">
-                <label>Buscar Contrato / PCOM # / Proveedor / Fila Excel:</label>
+                <label>Buscar Contrato / Compromiso # / Proveedor / Fila Excel:</label>
                 <div class="search-input-wrapper">
-                    <input type="text" id="searchInput" placeholder="Escribe aquí (ej. PCOM #7284, Fila 892, 007/2026, VILAB)...">
+                    <input type="text" id="searchInput" placeholder="Escribe aquí (ej. Compromiso #7284, Fila 892, 007/2026, VILAB)...">
                     <button type="button" id="btnSearchTrigger" class="search-icon-btn" title="Buscar en todo el sistema">
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
                         <span>Buscar</span>
@@ -207,8 +207,8 @@
                 <label>Comprometido en SICOP:</label>
                 <select id="filterSicop">
                     <option value="ALL">Todos los Estatus (Con y Sin Folio)</option>
-                    <option value="SI">SI (Comprometido con Folio PCOM)</option>
-                    <option value="NO">NO (Sin Folio PCOM / Pendiente)</option>
+                    <option value="SI">SI (Comprometido con Folio Compromiso)</option>
+                    <option value="NO">NO (Sin Folio Compromiso / Pendiente)</option>
                 </select>
             </div>
             <div class="filter-group">
@@ -301,7 +301,7 @@
             <div class="card table-card">
                 <div class="card-header table-header-actions">
                     <div>
-                        <h3>Matriz Completa de Contratos y Partidas (Con y Sin Folio PCOM)</h3>
+                        <h3>Matriz Completa de Contratos y Partidas (Con y Sin Folio Compromiso)</h3>
                         <span class="card-subtitle" id="tableRecordCount">Mostrando 903 registros</span>
                     </div>
                     <div class="table-actions" style="display:flex; gap:10px; align-items:center;">
@@ -321,7 +321,7 @@
                         <thead>
                             <tr>
                                 <th data-sort="fila_excel">RENGLÓN EXCEL ↕</th>
-                                <th data-sort="no_compromiso">FOLIO PCOM ↕</th>
+                                <th data-sort="no_compromiso">FOLIO COMPROMISO ↕</th>
                                 <th data-sort="contrato">NO. CONTRATO ↕</th>
                                 <th data-sort="proveedor">PROVEEDOR ↕</th>
                                 <th data-sort="capitulo">CAP. ↕</th>
@@ -420,7 +420,7 @@
                         <table class="data-table">
                             <thead>
                                 <tr>
-                                    <th>Folio PCOM</th>
+                                    <th>Folio Compromiso</th>
                                     <th>Contrato</th>
                                     <th>Proveedor</th>
                                     <th>Cap.</th>
@@ -448,7 +448,7 @@
                         <table class="data-table">
                             <thead>
                                 <tr>
-                                    <th>Folio PCOM</th>
+                                    <th>Folio Compromiso</th>
                                     <th>Contrato</th>
                                     <th>Proveedor</th>
                                     <th>Cap.</th>
@@ -473,7 +473,7 @@
                 <div class="card table-card flex-1">
                     <div class="card-header">
                         <h3>Auditoría de Errores de Captura: Almacén INPER vs. SICOP</h3>
-                        <span class="card-subtitle">Listado con Folio PCOM, Número de Fila en Excel y Diagnóstico Operativo</span>
+                        <span class="card-subtitle">Listado con Folio Compromiso, Número de Fila en Excel y Diagnóstico Operativo</span>
                     </div>
                     <div class="table-responsive">
                         <table class="data-table">
@@ -481,7 +481,7 @@
                                 <tr>
                                     <th>No. Reg</th>
                                     <th>Fila Excel</th>
-                                    <th>Folio PCOM</th>
+                                    <th>Folio Compromiso</th>
                                     <th>No. Contrato</th>
                                     <th>Proveedor</th>
                                     <th>SICOP Modificado</th>
@@ -531,13 +531,13 @@
                 <div class="card table-card flex-1">
                     <div class="card-header">
                         <h3>Análisis por Contrato Principal (Top Contratos por Suficiencia)</h3>
-                        <span class="card-subtitle">Desglose deduplicado por número de contrato, Folio PCOM, proveedor y partidas asociadas</span>
+                        <span class="card-subtitle">Desglose deduplicado por número de contrato, Folio Compromiso, proveedor y partidas asociadas</span>
                     </div>
                     <div class="table-responsive">
                         <table class="data-table">
                             <thead>
                                 <tr>
-                                    <th>Folio PCOM</th>
+                                    <th>Folio Compromiso</th>
                                     <th>No. Contrato</th>
                                     <th>Proveedor</th>
                                     <th>Cap.</th>
