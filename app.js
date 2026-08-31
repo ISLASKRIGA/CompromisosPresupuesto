@@ -107,7 +107,7 @@ function openKpiDetailModal(type) {
     let bodyHtml = "";
 
     if (type === 'suficiencia') {
-        title = "Detalle: Suficiencia Presupuestal Autorizada ($303.4 MDP)";
+        title = "Detalle: Suficiencia Presupuestal Autorizada ($303,416,797.00 MXN)";
         vendorSub = `${contracts.length} Contratos Únicos Registrados`;
         bodyHtml = `
             <div class="modal-detail-grid">
@@ -152,7 +152,7 @@ function openKpiDetailModal(type) {
         });
         bodyHtml += `</tbody></table></div>`;
     } else if (type === 'sicop') {
-        title = "Detalle: Registro Oficial en SICOP ($301.88 MDP)";
+        title = "Detalle: Registro Oficial en SICOP ($301,884,723.18 MXN)";
         vendorSub = "Contratos formalizados y vinculados con folio PCOM extraídos de 12_289810_EXT_COMPROMISO_PCOM.csv";
         const siContracts = contracts.filter(c => c.comprometido_sicop.toUpperCase() === 'SI');
         bodyHtml = `
@@ -193,7 +193,7 @@ function openKpiDetailModal(type) {
         });
         bodyHtml += `</tbody></table></div>`;
     } else if (type === 'almacen') {
-        title = "Detalle: Reportado por Almacén ($299.63 MDP)";
+        title = "Detalle: Reportado por Almacén ($299,629,338.45 MXN)";
         vendorSub = "Cifras capturadas en la tabla origen de Almacén";
         bodyHtml = `
             <div class="modal-detail-grid">
@@ -286,14 +286,14 @@ function openKpiDetailModal(type) {
         });
         bodyHtml += `</tbody></table></div>`;
     } else if (type === 'sobrante') {
-        title = "Detalle: Sobrante Total Liberable ($12.34 MDP)";
+        title = "Detalle: Sobrante Total Liberable ($12,338,420.96 MXN)";
         vendorSub = "52 Contratos con suficiencia presupuestal libre para reasignación";
         const sobrantes = actionableData ? actionableData.sobrantes : [];
         bodyHtml = `
             <div class="modal-detail-grid">
                 <div class="modal-detail-item">
                     <label>Presupuesto Sobrante Liberable:</label>
-                    <span class="text-success">${formatCurrency(actionableData ? actionableData.sobrante_total : 12338383)}</span>
+                    <span class="text-success">${formatCurrency(actionableData ? actionableData.sobrante_total : 12338420.96)}</span>
                 </div>
                 <div class="modal-detail-item">
                     <label>Contratos con Sobrante:</label>
@@ -327,14 +327,14 @@ function openKpiDetailModal(type) {
         });
         bodyHtml += `</tbody></table></div>`;
     } else if (type === 'faltante') {
-        title = "Detalle: Faltante por Cobertura ($10.81 MDP)";
+        title = "Detalle: Faltante por Cobertura ($10,806,347.13 MXN)";
         vendorSub = "43 Contratos (Convenios Modificatorios CM1) que requieren suficiencia";
         const faltantes = actionableData ? actionableData.faltantes : [];
         bodyHtml = `
             <div class="modal-detail-grid">
                 <div class="modal-detail-item">
                     <label>Faltante Total Requerido:</label>
-                    <span class="text-danger">${formatCurrency(actionableData ? actionableData.faltante_total : 10806312)}</span>
+                    <span class="text-danger">${formatCurrency(actionableData ? actionableData.faltante_total : 10806347.13)}</span>
                 </div>
                 <div class="modal-detail-item">
                     <label>Contratos Afectados:</label>
@@ -368,7 +368,7 @@ function openKpiDetailModal(type) {
         });
         bodyHtml += `</tbody></table></div>`;
     } else if (type === 'pendiente') {
-        title = "Detalle: Partidas Pendientes de Registro en SICOP ($188.47 MDP)";
+        title = "Detalle: Partidas Pendientes de Registro en SICOP ($188,469,400.00 MXN)";
         vendorSub = "295 Partidas marcadas 'NO en SICOP' (Sin Folio PCOM) que requieren vinculación";
         const noRecords = records.filter(r => r.comprometido_sicop.toUpperCase() === 'NO');
         bodyHtml = `
@@ -413,22 +413,22 @@ function openKpiDetailModal(type) {
         });
         bodyHtml += `</tbody></table></div>`;
     } else if (type === 'saldoneto') {
-        title = "Detalle: Saldo Neto a Favor del INPER (+$1.53 MDP)";
+        title = "Detalle: Saldo Neto a Favor del INPER (+$1,532,073.83 MXN)";
         vendorSub = "Superávit Presupuestal Nivel General (Sobrantes > Faltantes)";
         bodyHtml = `
             <div class="modal-detail-grid">
                 <div class="modal-detail-item">
                     <label>Sobrante Total (52 CTOs):</label>
-                    <span class="text-success">+${formatCurrency(actionableData ? actionableData.sobrante_total : 12338383)}</span>
+                    <span class="text-success">+${formatCurrency(actionableData ? actionableData.sobrante_total : 12338420.96)}</span>
                 </div>
                 <div class="modal-detail-item">
                     <label>Faltante Total (43 CM1s):</label>
-                    <span class="text-danger">-${formatCurrency(actionableData ? actionableData.faltante_total : 10806312)}</span>
+                    <span class="text-danger">-${formatCurrency(actionableData ? actionableData.faltante_total : 10806347.13)}</span>
                 </div>
             </div>
             <div style="background:#eff6ff; padding:1.25rem; border-radius:var(--radius-md); border:1px solid #bfdbfe; margin-top:1rem;">
                 <h4 style="color:#1e40af; font-family:var(--font-heading); margin-bottom:6px;">Conclusión de Recompensación:</h4>
-                <p style="color:#1e293b; font-size:0.925rem;">El INPER cuenta con un <strong>Superávit Neto de $1,532,071.00 MXN</strong>. Recompensando internamente la suficiencia liberada de los 52 contratos con sobrante se cubren al 100% las necesidades de los Convenios Modificatorios CM1 <strong>sin requerir presupuesto adicional</strong>.</p>
+                <p style="color:#1e293b; font-size:0.925rem;">El INPER cuenta con un <strong>Superávit Neto de $1,532,073.83 MXN</strong>. Recompensando internamente la suficiencia liberada de los 52 contratos con sobrante se cubren al 100% las necesidades de los Convenios Modificatorios CM1 <strong>sin requerir presupuesto adicional</strong>.</p>
             </div>
         `;
     }
@@ -651,8 +651,8 @@ function renderBalanzaPartidas() {
                 <td><span class="status-tag">${p.capitulo}</span></td>
                 <td class="text-right"><strong>${formatCurrency(p.autorizado)}</strong></td>
                 <td class="text-right">${formatCurrency(p.sicop)}</td>
-                <td class="text-right text-success"><strong>${p.sobrante > 0 ? ('+' + formatCurrency(p.sobrante)) : '$0'}</strong></td>
-                <td class="text-right text-danger"><strong>${p.faltante > 0 ? ('-' + formatCurrency(p.faltante)) : '$0'}</strong></td>
+                <td class="text-right text-success"><strong>${p.sobrante > 0 ? ('+' + formatCurrency(p.sobrante)) : '$0.00'}</strong></td>
+                <td class="text-right text-danger"><strong>${p.faltante > 0 ? ('-' + formatCurrency(p.faltante)) : '$0.00'}</strong></td>
                 <td class="text-right"><span class="kpi-badge ${netoBadgeClass}">${netoTextPrefix}${formatCurrency(neto)}</span></td>
                 <td>
                     <div style="font-size:0.875rem; font-weight:700; color:#0f172a; margin-bottom:3px;">${p.estrategia}</div>
@@ -668,13 +668,19 @@ function renderBalanzaPartidas() {
     const faltanteEl = document.getElementById('balanzaFaltanteTotal');
     const netoEl = document.getElementById('balanzaNetoTotal');
 
-    if (sobranteEl) sobranteEl.textContent = formatCurrency(totalSobrante);
-    if (faltanteEl) faltanteEl.textContent = formatCurrency(totalFaltante);
+    if (sobranteEl) sobranteEl.textContent = '+' + formatCurrency(totalSobrante);
+    if (faltanteEl) faltanteEl.textContent = '-' + formatCurrency(totalFaltante);
     if (netoEl) netoEl.textContent = '+' + formatCurrency(totalSobrante - totalFaltante);
 }
 
+// ALWAYS format with exact 2 decimal places for cents (.00 / .XX)
 function formatCurrency(amount) {
-    return new Intl.NumberFormat('es-MX', { style: 'currency', currency: 'MXN', maximumFractionDigits: 0 }).format(amount);
+    return new Intl.NumberFormat('es-MX', { 
+        style: 'currency', 
+        currency: 'MXN', 
+        minimumFractionDigits: 2, 
+        maximumFractionDigits: 2 
+    }).format(amount || 0);
 }
 
 function updateKPICards(filteredRecords, filteredContracts) {
@@ -701,8 +707,8 @@ function updateKPICards(filteredRecords, filteredContracts) {
 
     const coverage = totalAutorizado > 0 ? (totalSicop / totalAutorizado) * 100 : 0;
     
-    const sobranteVal = actionableData ? actionableData.sobrante_total : 12338383;
-    const faltanteVal = actionableData ? actionableData.faltante_total : 10806312;
+    const sobranteVal = actionableData ? actionableData.sobrante_total : 12338420.96;
+    const faltanteVal = actionableData ? actionableData.faltante_total : 10806347.13;
     const saldoNetoVal = sobranteVal - faltanteVal;
 
     document.getElementById('kpiCountBadge').textContent = countBadgeText;
@@ -710,7 +716,7 @@ function updateKPICards(filteredRecords, filteredContracts) {
     document.getElementById('kpiSicop').textContent = formatCurrency(totalSicop);
     document.getElementById('kpiSobranteTotal').textContent = formatCurrency(sobranteVal);
     document.getElementById('kpiFaltanteTotal').textContent = formatCurrency(faltanteVal);
-    document.getElementById('kpiSaldoNeto').textContent = formatCurrency(saldoNetoVal);
+    document.getElementById('kpiSaldoNeto').textContent = '+' + formatCurrency(saldoNetoVal);
     document.getElementById('kpiCoverageText').textContent = `${coverage.toFixed(1)}% de Cobertura Registrada`;
 }
 

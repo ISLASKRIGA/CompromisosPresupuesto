@@ -232,7 +232,7 @@ body {
 /* KPI Cards Grid */
 .kpi-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 1.25rem;
     margin-bottom: 1.5rem;
 }
@@ -247,6 +247,9 @@ body {
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .kpi-card:hover {
@@ -298,15 +301,18 @@ body {
 .kpi-badge.warning { background: #fef3c7; color: #92400e; }
 .kpi-badge.danger { background: #fee2e2; color: #991b1b; }
 
+/* Never wrap numbers onto a second line! Automatic fluid font scaling */
 .kpi-value {
     font-family: var(--font-heading);
-    font-size: calc(2.2rem * var(--font-scale));
+    font-size: clamp(1.1rem, 1.85vw, 1.7rem);
     font-weight: 800;
     color: var(--text-primary);
     letter-spacing: -0.5px;
     line-height: 1.1;
     margin-bottom: 0.5rem;
-    word-break: break-word;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .kpi-footer {
@@ -993,12 +999,12 @@ body {
     }
 
     .kpi-grid {
-        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
         gap: 1rem;
     }
 
     .kpi-value {
-        font-size: calc(1.8rem * var(--font-scale));
+        font-size: clamp(1.1rem, 2vw, 1.6rem);
     }
 
     .dashboard-row {
@@ -1075,7 +1081,7 @@ body {
     }
 
     .kpi-value {
-        font-size: calc(1.4rem * var(--font-scale));
+        font-size: clamp(1.05rem, 2.2vw, 1.5rem);
     }
 
     .filter-bar {
