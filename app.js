@@ -842,6 +842,9 @@ function renderPartidaAndContratoAnalysis(records, contracts) {
         const sortedPtda = Object.entries(ptdaMap).sort((a, b) => b[1].autorizado - a[1].autorizado);
         let ptdaHtml = '';
         sortedPtda.forEach(([key, d]) => {
+            const disponible = d.autorizado - d.sicop;
+            const dispClass = disponible >= 0 ? 'text-success' : 'text-danger';
+            const dispSign = disponible >= 0 ? '+' : '';
             ptdaHtml += `
                 <tr onclick="document.getElementById('searchInput').value='${key.split(' - ')[0]}'; filterSearch='${key.split(' - ')[0]}'; switchTab('tab-matrix'); renderDashboard();" style="cursor:pointer">
                     <td><strong>${key.split(' - ')[0]}</strong></td>
@@ -849,7 +852,8 @@ function renderPartidaAndContratoAnalysis(records, contracts) {
                     <td>${key.split(' - ')[1] || key}</td>
                     <td>${d.count} partidas</td>
                     <td><strong>${formatCurrency(d.autorizado)}</strong></td>
-                    <td class="text-success">${formatCurrency(d.sicop)}</td>
+                    <td style="color:#2563eb;"><strong>${formatCurrency(d.sicop)}</strong></td>
+                    <td class="${dispClass}"><strong>${dispSign}${formatCurrency(disponible)}</strong></td>
                 </tr>
             `;
         });
