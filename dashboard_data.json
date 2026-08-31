@@ -12,7 +12,7 @@
       "rfc": "VIL190307SI6",
       "autorizado": 12876.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 23316.0,
+      "sicop_mod": 12876.0,
       "sicop_ejer": 12876.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -183,12 +183,12 @@
       "rfc": "RUN211209T11",
       "autorizado": 325268.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 393111.75,
+      "sicop_mod": 325267.75,
       "sicop_ejer": 325268.0,
       "dif_mod": -0.25,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 103,
@@ -202,7 +202,7 @@
       "rfc": "RUN211209T11",
       "autorizado": 67844.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 393111.75,
+      "sicop_mod": 67844.0,
       "sicop_ejer": 67844.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -221,12 +221,12 @@
       "rfc": "DIA000314GJ7",
       "autorizado": 357379.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2045165.49,
+      "sicop_mod": 357378.9,
       "sicop_ejer": 357379.0,
       "dif_mod": -0.09999999997671694,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 105,
@@ -240,12 +240,12 @@
       "rfc": "DIA000314GJ7",
       "autorizado": 1687787.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2045165.49,
+      "sicop_mod": 1687786.59,
       "sicop_ejer": 1687787.0,
       "dif_mod": -0.40999999991618097,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 106,
@@ -430,7 +430,7 @@
       "rfc": "BAC920106U98",
       "autorizado": 2804647.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3096731.45,
+      "sicop_mod": 2804646.58,
       "sicop_ejer": 3096731.45,
       "dif_mod": -292084.8700000001,
       "prioridad": "ALTA",
@@ -449,12 +449,12 @@
       "rfc": "BAC920106U98",
       "autorizado": 292085.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3096731.45,
+      "sicop_mod": 292084.87,
       "sicop_ejer": 292085.0,
       "dif_mod": -0.1300000000046566,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 117,
@@ -487,12 +487,12 @@
       "rfc": "ACC011004NQ5",
       "autorizado": 304231.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 707322.76,
+      "sicop_mod": 304230.56,
       "sicop_ejer": 304231.0,
       "dif_mod": -0.4400000000023283,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 119,
@@ -506,7 +506,7 @@
       "rfc": "ACC011004NQ5",
       "autorizado": 403092.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 707322.76,
+      "sicop_mod": 403092.2,
       "sicop_ejer": 403092.0,
       "dif_mod": 0.20000000001164153,
       "prioridad": "ALTA",
@@ -544,12 +544,12 @@
       "rfc": "ABA040721TS9",
       "autorizado": 798875.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3023888.0,
+      "sicop_mod": 798874.73,
       "sicop_ejer": 798875.0,
       "dif_mod": -0.27000000001862645,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 122,
@@ -563,12 +563,12 @@
       "rfc": "ABA040721TS9",
       "autorizado": 747426.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3023888.0,
+      "sicop_mod": 747425.93,
       "sicop_ejer": 747426.0,
       "dif_mod": -0.06999999994877726,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 123,
@@ -582,12 +582,12 @@
       "rfc": "ABA040721TS9",
       "autorizado": 1155186.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3023888.0,
+      "sicop_mod": 1155185.64,
       "sicop_ejer": 1155186.0,
       "dif_mod": -0.3600000001024455,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 124,
@@ -601,12 +601,12 @@
       "rfc": "ABA040721TS9",
       "autorizado": 322402.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3023888.0,
+      "sicop_mod": 322401.7,
       "sicop_ejer": 322402.0,
       "dif_mod": -0.29999999998835847,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 125,
@@ -620,12 +620,12 @@
       "rfc": "ELM1307243Q1",
       "autorizado": 1282923.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1953894.72,
+      "sicop_mod": 1282922.55,
       "sicop_ejer": 1282923.0,
       "dif_mod": -0.44999999995343387,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 126,
@@ -639,7 +639,7 @@
       "rfc": "ELM1307243Q1",
       "autorizado": 19123.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1953894.72,
+      "sicop_mod": 19123.36,
       "sicop_ejer": 19123.0,
       "dif_mod": 0.3600000000005821,
       "prioridad": "ALTA",
@@ -658,12 +658,12 @@
       "rfc": "ELM1307243Q1",
       "autorizado": 651849.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1953894.72,
+      "sicop_mod": 651848.81,
       "sicop_ejer": 651849.0,
       "dif_mod": -0.18999999994412065,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 128,
@@ -696,7 +696,7 @@
       "rfc": "COR861205HE1",
       "autorizado": 47908.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 143898.0,
+      "sicop_mod": 47908.0,
       "sicop_ejer": 47908.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -715,7 +715,7 @@
       "rfc": "COR861205HE1",
       "autorizado": 95990.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 143898.0,
+      "sicop_mod": 95990.0,
       "sicop_ejer": 95990.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -734,7 +734,7 @@
       "rfc": "LPR090312B30",
       "autorizado": 317918.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 473744.0,
+      "sicop_mod": 317918.0,
       "sicop_ejer": 317918.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -753,7 +753,7 @@
       "rfc": "LPR090312B30",
       "autorizado": 155826.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 473744.0,
+      "sicop_mod": 155826.0,
       "sicop_ejer": 155826.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -791,12 +791,12 @@
       "rfc": "LPR090312B30",
       "autorizado": 3434.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 240305.6,
+      "sicop_mod": 3433.6,
       "sicop_ejer": 3434.0,
       "dif_mod": -0.40000000000009095,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 135,
@@ -810,7 +810,7 @@
       "rfc": "LPR090312B30",
       "autorizado": 236872.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 240305.6,
+      "sicop_mod": 236872.0,
       "sicop_ejer": 236872.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -848,7 +848,7 @@
       "rfc": "LPR090312B30",
       "autorizado": 1878211.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1951405.36,
+      "sicop_mod": 1878211.4,
       "sicop_ejer": 1878211.0,
       "dif_mod": 0.39999999990686774,
       "prioridad": "ALTA",
@@ -867,7 +867,7 @@
       "rfc": "LPR090312B30",
       "autorizado": 13224.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1951405.36,
+      "sicop_mod": 13224.0,
       "sicop_ejer": 13224.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -886,12 +886,12 @@
       "rfc": "LPR090312B30",
       "autorizado": 59970.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1951405.36,
+      "sicop_mod": 59969.96,
       "sicop_ejer": 59970.0,
       "dif_mod": -0.040000000000873115,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 140,
@@ -924,12 +924,12 @@
       "rfc": "ABS030314941",
       "autorizado": 273290.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 351410.4,
+      "sicop_mod": 273289.96,
       "sicop_ejer": 273290.0,
       "dif_mod": -0.03999999997904524,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 142,
@@ -943,7 +943,7 @@
       "rfc": "ABS030314941",
       "autorizado": 78120.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 351410.4,
+      "sicop_mod": 78120.44,
       "sicop_ejer": 78120.0,
       "dif_mod": 0.4400000000023283,
       "prioridad": "ALTA",
@@ -1076,12 +1076,12 @@
       "rfc": "CTR831122N85",
       "autorizado": 1196755.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1407393.2,
+      "sicop_mod": 1196754.78,
       "sicop_ejer": 1196755.0,
       "dif_mod": -0.21999999997206032,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 150,
@@ -1095,7 +1095,7 @@
       "rfc": "CTR831122N85",
       "autorizado": 190500.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1407393.2,
+      "sicop_mod": 190500.0,
       "sicop_ejer": 190500.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -1114,7 +1114,7 @@
       "rfc": "CTR831122N85",
       "autorizado": 20138.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1407393.2,
+      "sicop_mod": 20138.42,
       "sicop_ejer": 20138.0,
       "dif_mod": 0.41999999999825377,
       "prioridad": "ALTA",
@@ -1247,7 +1247,7 @@
       "rfc": "QME080108A87",
       "autorizado": 128717.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 143275.66,
+      "sicop_mod": 128717.24,
       "sicop_ejer": 128717.0,
       "dif_mod": 0.2400000000052387,
       "prioridad": "ALTA",
@@ -1266,7 +1266,7 @@
       "rfc": "QME080108A87",
       "autorizado": 5168.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 143275.66,
+      "sicop_mod": 5168.0,
       "sicop_ejer": 5168.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -1285,7 +1285,7 @@
       "rfc": "QME080108A87",
       "autorizado": 9390.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 143275.66,
+      "sicop_mod": 9390.42,
       "sicop_ejer": 9390.0,
       "dif_mod": 0.42000000000007276,
       "prioridad": "ALTA",
@@ -1893,12 +1893,12 @@
       "rfc": "INF891031LT4",
       "autorizado": 1408175.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2125846.29,
+      "sicop_mod": 1408174.71,
       "sicop_ejer": 1408175.0,
       "dif_mod": -0.2900000000372529,
       "prioridad": "CRÍTICA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 193,
@@ -1931,12 +1931,12 @@
       "rfc": "HME020304BP8",
       "autorizado": 150168.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 588604.92,
+      "sicop_mod": 150167.88,
       "sicop_ejer": 150168.0,
       "dif_mod": -0.11999999999534339,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 195,
@@ -1950,7 +1950,7 @@
       "rfc": "HME020304BP8",
       "autorizado": 294145.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 588604.92,
+      "sicop_mod": 294145.28,
       "sicop_ejer": 294145.0,
       "dif_mod": 0.2800000000279397,
       "prioridad": "ALTA",
@@ -1969,12 +1969,12 @@
       "rfc": "HME020304BP8",
       "autorizado": 144292.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 588604.92,
+      "sicop_mod": 144291.76,
       "sicop_ejer": 144292.0,
       "dif_mod": -0.23999999999068677,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 197,
@@ -2026,7 +2026,7 @@
       "rfc": "AME060622FA5",
       "autorizado": 259362.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 432296.56,
+      "sicop_mod": 259362.4,
       "sicop_ejer": 259362.0,
       "dif_mod": 0.39999999999417923,
       "prioridad": "ALTA",
@@ -2577,7 +2577,7 @@
       "rfc": "ALM84030811A",
       "autorizado": 15932.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 33744.5,
+      "sicop_mod": 15932.0,
       "sicop_ejer": 15932.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -2615,7 +2615,7 @@
       "rfc": "BME820511SU5",
       "autorizado": 319000.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 500261.6,
+      "sicop_mod": 319000.0,
       "sicop_ejer": 319000.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -2634,7 +2634,7 @@
       "rfc": "BME820511SU5",
       "autorizado": 319000.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 500261.6,
+      "sicop_mod": 319000.0,
       "sicop_ejer": 319000.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -2672,7 +2672,7 @@
       "rfc": "CME130105BB1",
       "autorizado": 15525.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 47265.0,
+      "sicop_mod": 15525.0,
       "sicop_ejer": 15525.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -2710,7 +2710,7 @@
       "rfc": "GME080501QL0",
       "autorizado": 291150.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 390141.0,
+      "sicop_mod": 291150.0,
       "sicop_ejer": 291150.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -2729,7 +2729,7 @@
       "rfc": "GME080501QL0",
       "autorizado": 291150.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 390141.0,
+      "sicop_mod": 291150.0,
       "sicop_ejer": 291150.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -2748,7 +2748,7 @@
       "rfc": "IMB510327A78",
       "autorizado": 2851.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 622836.2,
+      "sicop_mod": 2851.0,
       "sicop_ejer": 2851.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -2786,12 +2786,12 @@
       "rfc": "LPI830527KJ2",
       "autorizado": 5097.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 240279.81,
+      "sicop_mod": 5096.59,
       "sicop_ejer": 5097.0,
       "dif_mod": -0.4099999999998545,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 233,
@@ -2805,7 +2805,7 @@
       "rfc": "LPI830527KJ2",
       "autorizado": 235183.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 240279.81,
+      "sicop_mod": 235183.22,
       "sicop_ejer": 235183.0,
       "dif_mod": 0.22000000000116415,
       "prioridad": "ALTA",
@@ -2824,12 +2824,12 @@
       "rfc": "LSC130111DL8",
       "autorizado": 1644.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 4325.16,
+      "sicop_mod": 1643.88,
       "sicop_ejer": 1644.0,
       "dif_mod": -0.11999999999989086,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 235,
@@ -2862,12 +2862,12 @@
       "rfc": "MJN081127NC5",
       "autorizado": 3616.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1150560.0,
+      "sicop_mod": 3615.82,
       "sicop_ejer": 3616.0,
       "dif_mod": -0.1799999999998363,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 237,
@@ -2881,7 +2881,7 @@
       "rfc": "MJN081127NC5",
       "autorizado": 1146944.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1150560.0,
+      "sicop_mod": 1146944.18,
       "sicop_ejer": 1146944.0,
       "dif_mod": 0.17999999993480742,
       "prioridad": "ALTA",
@@ -2919,7 +2919,7 @@
       "rfc": "NIN780801IH0",
       "autorizado": 24040.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 28222.86,
+      "sicop_mod": 24040.3,
       "sicop_ejer": 24040.0,
       "dif_mod": 0.2999999999992724,
       "prioridad": "ALTA",
@@ -2938,7 +2938,7 @@
       "rfc": "NIN780801IH0",
       "autorizado": 24040.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 28222.86,
+      "sicop_mod": 24040.3,
       "sicop_ejer": 24040.0,
       "dif_mod": 0.2999999999992724,
       "prioridad": "ALTA",
@@ -2957,12 +2957,12 @@
       "rfc": "PMA930216GB2",
       "autorizado": 2990.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 43322.51,
+      "sicop_mod": 2989.69,
       "sicop_ejer": 2990.0,
       "dif_mod": -0.30999999999994543,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 241,
@@ -2976,12 +2976,12 @@
       "rfc": "PMA930216GB2",
       "autorizado": 40333.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 43322.51,
+      "sicop_mod": 40332.82,
       "sicop_ejer": 40333.0,
       "dif_mod": -0.18000000000029104,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 242,
@@ -2995,7 +2995,7 @@
       "rfc": "SPA960328P62",
       "autorizado": 196892.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 245831.65,
+      "sicop_mod": 196892.05,
       "sicop_ejer": 196892.0,
       "dif_mod": 0.04999999998835847,
       "prioridad": "ALTA",
@@ -3090,12 +3090,12 @@
       "rfc": "IFA8310213W1",
       "autorizado": 3088.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 230324.0,
+      "sicop_mod": 3087.73,
       "sicop_ejer": 3088.0,
       "dif_mod": -0.2699999999999818,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 247,
@@ -3109,7 +3109,7 @@
       "rfc": "IFA8310213W1",
       "autorizado": 226952.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 230324.0,
+      "sicop_mod": 226952.27,
       "sicop_ejer": 226952.0,
       "dif_mod": 0.2699999999895226,
       "prioridad": "ALTA",
@@ -3185,7 +3185,7 @@
       "rfc": "LPI830527KJ2",
       "autorizado": 11991.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 160849.25,
+      "sicop_mod": 11991.32,
       "sicop_ejer": 11991.0,
       "dif_mod": 0.31999999999970896,
       "prioridad": "ALTA",
@@ -3204,12 +3204,12 @@
       "rfc": "LPI830527KJ2",
       "autorizado": 58085.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 160849.25,
+      "sicop_mod": 58084.78,
       "sicop_ejer": 58085.0,
       "dif_mod": -0.22000000000116415,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 253,
@@ -3280,7 +3280,7 @@
       "rfc": "PRO780201IDA",
       "autorizado": 101152.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 126678.0,
+      "sicop_mod": 101152.0,
       "sicop_ejer": 101152.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -3299,7 +3299,7 @@
       "rfc": "PRO780201IDA",
       "autorizado": 101152.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 126678.0,
+      "sicop_mod": 101152.0,
       "sicop_ejer": 101152.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -3413,7 +3413,7 @@
       "rfc": "ODI1603114S7",
       "autorizado": 115615.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 248095.0,
+      "sicop_mod": 115615.0,
       "sicop_ejer": 115615.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -3432,7 +3432,7 @@
       "rfc": "ODI1603114S7",
       "autorizado": 18905.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 248095.0,
+      "sicop_mod": 18905.0,
       "sicop_ejer": 18905.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -3451,7 +3451,7 @@
       "rfc": "ODI1603114S7",
       "autorizado": 18905.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 248095.0,
+      "sicop_mod": 18905.0,
       "sicop_ejer": 18905.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -3470,12 +3470,12 @@
       "rfc": "ODI1603114S7",
       "autorizado": 122457.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 155250.0,
+      "sicop_mod": 122456.71,
       "sicop_ejer": 122457.0,
       "dif_mod": -0.28999999999359716,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 265,
@@ -3489,7 +3489,7 @@
       "rfc": "ODI1603114S7",
       "autorizado": 32793.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 155250.0,
+      "sicop_mod": 32793.29,
       "sicop_ejer": 32793.0,
       "dif_mod": 0.2900000000008731,
       "prioridad": "ALTA",
@@ -3508,7 +3508,7 @@
       "rfc": "ODI1603114S7",
       "autorizado": 48968.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 128989.8,
+      "sicop_mod": 48968.35,
       "sicop_ejer": 48968.0,
       "dif_mod": 0.3499999999985448,
       "prioridad": "ALTA",
@@ -3527,7 +3527,7 @@
       "rfc": "ODI1603114S7",
       "autorizado": 48968.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 128989.8,
+      "sicop_mod": 48968.35,
       "sicop_ejer": 48968.0,
       "dif_mod": 0.3499999999985448,
       "prioridad": "ALTA",
@@ -3546,7 +3546,7 @@
       "rfc": "ODI1603114S7",
       "autorizado": 47774.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 128989.8,
+      "sicop_mod": 47774.0,
       "sicop_ejer": 47774.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -3774,12 +3774,12 @@
       "rfc": "AME060622FA5",
       "autorizado": 145926.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 986042.4,
+      "sicop_mod": 145925.83,
       "sicop_ejer": 145926.0,
       "dif_mod": -0.17000000001280569,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 280,
@@ -3793,12 +3793,12 @@
       "rfc": "AME060622FA5",
       "autorizado": 499808.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 986042.4,
+      "sicop_mod": 499807.54,
       "sicop_ejer": 499808.0,
       "dif_mod": -0.46000000002095476,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 281,
@@ -3812,12 +3812,12 @@
       "rfc": "AME060622FA5",
       "autorizado": 14988.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 986042.4,
+      "sicop_mod": 14987.63,
       "sicop_ejer": 14988.0,
       "dif_mod": -0.37000000000080036,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 282,
@@ -3831,7 +3831,7 @@
       "rfc": "AME060622FA5",
       "autorizado": 325321.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 986042.4,
+      "sicop_mod": 325321.4,
       "sicop_ejer": 325321.0,
       "dif_mod": 0.40000000002328306,
       "prioridad": "ALTA",
@@ -3888,7 +3888,7 @@
       "rfc": "ALM84030811A",
       "autorizado": 21750.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 65625.0,
+      "sicop_mod": 21750.0,
       "sicop_ejer": 21750.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -3907,7 +3907,7 @@
       "rfc": "ALM84030811A",
       "autorizado": 43875.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 65625.0,
+      "sicop_mod": 43875.0,
       "sicop_ejer": 43875.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -4059,7 +4059,7 @@
       "rfc": "LJA0303264L5",
       "autorizado": 18300.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 65800.0,
+      "sicop_mod": 18300.0,
       "sicop_ejer": 18300.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -4078,7 +4078,7 @@
       "rfc": "LJA0303264L5",
       "autorizado": 47500.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 65800.0,
+      "sicop_mod": 47500.0,
       "sicop_ejer": 47500.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -4097,7 +4097,7 @@
       "rfc": "MJN081127NC5",
       "autorizado": 28261.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 47141.0,
+      "sicop_mod": 28261.0,
       "sicop_ejer": 28261.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -4116,7 +4116,7 @@
       "rfc": "MJN081127NC5",
       "autorizado": 18880.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 47141.0,
+      "sicop_mod": 18880.0,
       "sicop_ejer": 18880.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -4306,7 +4306,7 @@
       "rfc": "BAX871207MN3",
       "autorizado": 18266.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 115536.0,
+      "sicop_mod": 18266.23,
       "sicop_ejer": 18266.0,
       "dif_mod": 0.22999999999956344,
       "prioridad": "ALTA",
@@ -4325,12 +4325,12 @@
       "rfc": "BAX871207MN3",
       "autorizado": 97270.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 115536.0,
+      "sicop_mod": 97269.77,
       "sicop_ejer": 97270.0,
       "dif_mod": -0.22999999999592546,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 308,
@@ -4401,7 +4401,7 @@
       "rfc": "CAN0206182FA",
       "autorizado": 132268.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 787428.3,
+      "sicop_mod": 132268.15,
       "sicop_ejer": 132268.0,
       "dif_mod": 0.14999999999417923,
       "prioridad": "ALTA",
@@ -4420,7 +4420,7 @@
       "rfc": "CAN0206182FA",
       "autorizado": 655160.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 787428.3,
+      "sicop_mod": 655160.15,
       "sicop_ejer": 655160.0,
       "dif_mod": 0.15000000002328306,
       "prioridad": "ALTA",
@@ -4781,12 +4781,12 @@
       "rfc": "FMC990121BB3",
       "autorizado": 12772.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 389621.28,
+      "sicop_mod": 12771.95,
       "sicop_ejer": 12772.0,
       "dif_mod": -0.049999999999272404,
       "prioridad": "CRÍTICA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 332,
@@ -4800,12 +4800,12 @@
       "rfc": "FMC990121BB3",
       "autorizado": 22643.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 389621.28,
+      "sicop_mod": 22642.78,
       "sicop_ejer": 22643.0,
       "dif_mod": -0.22000000000116415,
       "prioridad": "CRÍTICA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 333,
@@ -4933,12 +4933,12 @@
       "rfc": "BAX871207MN3",
       "autorizado": 500407.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3138603.16,
+      "sicop_mod": 500406.66,
       "sicop_ejer": 500407.0,
       "dif_mod": -0.34000000002561137,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 340,
@@ -4952,7 +4952,7 @@
       "rfc": "BAX871207MN3",
       "autorizado": 1136858.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3138603.16,
+      "sicop_mod": 1136858.48,
       "sicop_ejer": 1136858.0,
       "dif_mod": 0.47999999998137355,
       "prioridad": "ALTA",
@@ -4971,7 +4971,7 @@
       "rfc": "BAX871207MN3",
       "autorizado": 1501338.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3138603.16,
+      "sicop_mod": 1501338.02,
       "sicop_ejer": 1501338.0,
       "dif_mod": 0.02000000001862645,
       "prioridad": "ALTA",
@@ -5047,7 +5047,7 @@
       "rfc": "LJA0303264L5",
       "autorizado": 2997.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 134877.84,
+      "sicop_mod": 2997.44,
       "sicop_ejer": 2997.0,
       "dif_mod": 0.44000000000005457,
       "prioridad": "ALTA",
@@ -5180,7 +5180,7 @@
       "rfc": "APH2106111C0",
       "autorizado": 58629.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 156103.4,
+      "sicop_mod": 58629.31,
       "sicop_ejer": 58629.0,
       "dif_mod": 0.3099999999976717,
       "prioridad": "ALTA",
@@ -5199,7 +5199,7 @@
       "rfc": "APH2106111C0",
       "autorizado": 97474.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 156103.4,
+      "sicop_mod": 97474.09,
       "sicop_ejer": 97474.0,
       "dif_mod": 0.08999999999650754,
       "prioridad": "ALTA",
@@ -5503,12 +5503,12 @@
       "rfc": "DME971017FZ7",
       "autorizado": 296604.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 474031.05,
+      "sicop_mod": 296603.65,
       "sicop_ejer": 296604.0,
       "dif_mod": -0.34999999997671694,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 370,
@@ -5636,7 +5636,7 @@
       "rfc": "QUI040525KW7",
       "autorizado": 105794.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 443368.45,
+      "sicop_mod": 105794.38,
       "sicop_ejer": 105794.0,
       "dif_mod": 0.3800000000046566,
       "prioridad": "ALTA",
@@ -6054,7 +6054,7 @@
       "rfc": "VIL190307SI6",
       "autorizado": 140618.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 151960.0,
+      "sicop_mod": 140618.44,
       "sicop_ejer": 140618.0,
       "dif_mod": 0.4400000000023283,
       "prioridad": "ALTA",
@@ -6073,12 +6073,12 @@
       "rfc": "VIL190307SI6",
       "autorizado": 11342.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 151960.0,
+      "sicop_mod": 11341.56,
       "sicop_ejer": 11342.0,
       "dif_mod": -0.4400000000005093,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 400,
@@ -6130,7 +6130,7 @@
       "rfc": "VIL190307SI6",
       "autorizado": 65308.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 364588.0,
+      "sicop_mod": 65308.0,
       "sicop_ejer": 65308.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -6168,7 +6168,7 @@
       "rfc": "VIL190307SI6",
       "autorizado": 10440.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 23316.0,
+      "sicop_mod": 10440.0,
       "sicop_ejer": 10440.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -6225,12 +6225,12 @@
       "rfc": "PR090312B30",
       "autorizado": 69994.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 191400.0,
+      "sicop_mod": 69993.93,
       "sicop_ejer": 69994.0,
       "dif_mod": -0.07000000000698492,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 408,
@@ -6244,7 +6244,7 @@
       "rfc": "PR090312B30",
       "autorizado": 121406.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 191400.0,
+      "sicop_mod": 121406.07,
       "sicop_ejer": 121406.0,
       "dif_mod": 0.07000000000698492,
       "prioridad": "ALTA",
@@ -6263,7 +6263,7 @@
       "rfc": "SOCS8611107C5",
       "autorizado": 44891.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 100802.14,
+      "sicop_mod": 44891.3,
       "sicop_ejer": 44891.0,
       "dif_mod": 0.3000000000029104,
       "prioridad": "ALTA",
@@ -6282,12 +6282,12 @@
       "rfc": "SOCS8611107C5",
       "autorizado": 55911.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 100802.14,
+      "sicop_mod": 55910.84,
       "sicop_ejer": 55911.0,
       "dif_mod": -0.16000000000349246,
       "prioridad": "ALTA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 411,
@@ -6814,7 +6814,7 @@
       "rfc": "ASH210901MJ9",
       "autorizado": 59945.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 296087.68,
+      "sicop_mod": 59945.08,
       "sicop_ejer": 59945.0,
       "dif_mod": 0.08000000000174623,
       "prioridad": "CRÍTICA",
@@ -6833,12 +6833,12 @@
       "rfc": "ASH210901MJ9",
       "autorizado": 236143.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 296087.68,
+      "sicop_mod": 236142.6,
       "sicop_ejer": 236143.0,
       "dif_mod": -0.39999999999417923,
       "prioridad": "CRÍTICA",
       "capitulo": "2000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 440,
@@ -6852,7 +6852,7 @@
       "rfc": "CSE081030C47",
       "autorizado": 4350.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 150574.02,
+      "sicop_mod": 4350.0,
       "sicop_ejer": 4350.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -6947,7 +6947,7 @@
       "rfc": "GEN7908272C1",
       "autorizado": 2092989.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2539936.01,
+      "sicop_mod": 2092989.15,
       "sicop_ejer": 2092989.0,
       "dif_mod": 0.14999999990686774,
       "prioridad": "ALTA",
@@ -6966,12 +6966,12 @@
       "rfc": "GEN7908272C1",
       "autorizado": 446947.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2539936.01,
+      "sicop_mod": 446946.86,
       "sicop_ejer": 446947.0,
       "dif_mod": -0.14000000001396984,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 460,
@@ -6985,7 +6985,7 @@
       "rfc": "GAM550606NP7",
       "autorizado": 797451.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1003873.48,
+      "sicop_mod": 797451.36,
       "sicop_ejer": 797451.0,
       "dif_mod": 0.35999999998603016,
       "prioridad": "ALTA",
@@ -7004,7 +7004,7 @@
       "rfc": "GAM550606NP7",
       "autorizado": 206422.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1003873.48,
+      "sicop_mod": 206422.12,
       "sicop_ejer": 206422.0,
       "dif_mod": 0.11999999999534339,
       "prioridad": "ALTA",
@@ -7023,7 +7023,7 @@
       "rfc": "UNI951013RC1",
       "autorizado": 1290.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 36720.96,
+      "sicop_mod": 1290.0,
       "sicop_ejer": 1290.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -7042,12 +7042,12 @@
       "rfc": "UNI951013RC1",
       "autorizado": 14953.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 36720.96,
+      "sicop_mod": 14952.96,
       "sicop_ejer": 14953.0,
       "dif_mod": -0.040000000000873115,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 468,
@@ -7061,7 +7061,7 @@
       "rfc": "UNI951013RC1",
       "autorizado": 5169.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 36720.96,
+      "sicop_mod": 5169.0,
       "sicop_ejer": 5169.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -7080,7 +7080,7 @@
       "rfc": "UNI951013RC1",
       "autorizado": 5924.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 36720.96,
+      "sicop_mod": 5924.0,
       "sicop_ejer": 5924.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -7099,7 +7099,7 @@
       "rfc": "UNI951013RC1",
       "autorizado": 9385.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 36720.96,
+      "sicop_mod": 9385.0,
       "sicop_ejer": 9385.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -7118,7 +7118,7 @@
       "rfc": "CIR860619EC9",
       "autorizado": 7481.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 37405.14,
+      "sicop_mod": 7481.14,
       "sicop_ejer": 7481.0,
       "dif_mod": 0.14000000000032742,
       "prioridad": "ALTA",
@@ -7137,7 +7137,7 @@
       "rfc": "CIR860619EC9",
       "autorizado": 6463.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 37405.14,
+      "sicop_mod": 6463.0,
       "sicop_ejer": 6463.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -7156,7 +7156,7 @@
       "rfc": "CIR860619EC9",
       "autorizado": 23461.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 37405.14,
+      "sicop_mod": 23461.0,
       "sicop_ejer": 23461.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -7175,12 +7175,12 @@
       "rfc": "SCM091023TW3",
       "autorizado": 125.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 831839.86,
+      "sicop_mod": 124.8,
       "sicop_ejer": 125.0,
       "dif_mod": -0.20000000000000284,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 475,
@@ -7194,7 +7194,7 @@
       "rfc": "SCM091023TW3",
       "autorizado": 378343.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 831839.86,
+      "sicop_mod": 378343.31,
       "sicop_ejer": 378343.0,
       "dif_mod": 0.3099999999976717,
       "prioridad": "ALTA",
@@ -7213,7 +7213,7 @@
       "rfc": "SCM091023TW3",
       "autorizado": 102727.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 831839.86,
+      "sicop_mod": 102727.15,
       "sicop_ejer": 102727.0,
       "dif_mod": 0.14999999999417923,
       "prioridad": "ALTA",
@@ -7232,12 +7232,12 @@
       "rfc": "SCM091023TW3",
       "autorizado": 4613.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 831839.86,
+      "sicop_mod": 4612.8,
       "sicop_ejer": 4613.0,
       "dif_mod": -0.1999999999998181,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 478,
@@ -7289,12 +7289,12 @@
       "rfc": "MAI900112RW2",
       "autorizado": 125.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 366074.42,
+      "sicop_mod": 124.8,
       "sicop_ejer": 125.0,
       "dif_mod": -0.20000000000000284,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 481,
@@ -7308,12 +7308,12 @@
       "rfc": "MAI900112RW2",
       "autorizado": 167111.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 366074.42,
+      "sicop_mod": 167110.53,
       "sicop_ejer": 167111.0,
       "dif_mod": -0.47000000000116415,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 482,
@@ -7327,12 +7327,12 @@
       "rfc": "MAI900112RW2",
       "autorizado": 12197.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 366074.42,
+      "sicop_mod": 12196.8,
       "sicop_ejer": 12197.0,
       "dif_mod": -0.2000000000007276,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 483,
@@ -7346,12 +7346,12 @@
       "rfc": "MAI900112RW2",
       "autorizado": 4613.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 366074.42,
+      "sicop_mod": 4612.8,
       "sicop_ejer": 4613.0,
       "dif_mod": -0.1999999999998181,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 484,
@@ -7365,7 +7365,7 @@
       "rfc": "MAI900112RW2",
       "autorizado": 182029.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 366074.42,
+      "sicop_mod": 182029.49,
       "sicop_ejer": 182029.0,
       "dif_mod": 0.4899999999906868,
       "prioridad": "ALTA",
@@ -7384,12 +7384,12 @@
       "rfc": "FOS000306HXA",
       "autorizado": 99286.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 186312.56,
+      "sicop_mod": 99285.66,
       "sicop_ejer": 99286.0,
       "dif_mod": -0.33999999999650754,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 486,
@@ -7403,7 +7403,7 @@
       "rfc": "FOS000306HXA",
       "autorizado": 50918.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 186312.56,
+      "sicop_mod": 50918.14,
       "sicop_ejer": 50918.0,
       "dif_mod": 0.13999999999941792,
       "prioridad": "ALTA",
@@ -7422,7 +7422,7 @@
       "rfc": "FOS000306HXA",
       "autorizado": 6485.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 186312.56,
+      "sicop_mod": 6485.24,
       "sicop_ejer": 6485.0,
       "dif_mod": 0.23999999999978172,
       "prioridad": "ALTA",
@@ -7441,12 +7441,12 @@
       "rfc": "FOS000306HXA",
       "autorizado": 29624.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 186312.56,
+      "sicop_mod": 29623.52,
       "sicop_ejer": 29624.0,
       "dif_mod": -0.47999999999956344,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 489,
@@ -7460,12 +7460,12 @@
       "rfc": "STE040914LI2",
       "autorizado": 250.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1098421.86,
+      "sicop_mod": 249.6,
       "sicop_ejer": 250.0,
       "dif_mod": -0.4000000000000057,
       "prioridad": "CRÍTICA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 490,
@@ -7479,7 +7479,7 @@
       "rfc": "STE040914LI2",
       "autorizado": 578260.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1098421.86,
+      "sicop_mod": 578260.0,
       "sicop_ejer": 578260.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -7498,12 +7498,12 @@
       "rfc": "STE040914LI2",
       "autorizado": 24394.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1098421.86,
+      "sicop_mod": 24393.6,
       "sicop_ejer": 24394.0,
       "dif_mod": -0.4000000000014552,
       "prioridad": "CRÍTICA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 492,
@@ -7517,12 +7517,12 @@
       "rfc": "STE040914LI2",
       "autorizado": 9226.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1098421.86,
+      "sicop_mod": 9225.6,
       "sicop_ejer": 9226.0,
       "dif_mod": -0.3999999999996362,
       "prioridad": "CRÍTICA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 493,
@@ -7536,7 +7536,7 @@
       "rfc": "STE040914LI2",
       "autorizado": 486293.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1098421.86,
+      "sicop_mod": 486293.06,
       "sicop_ejer": 486293.0,
       "dif_mod": 0.059999999997671694,
       "prioridad": "CRÍTICA",
@@ -7555,7 +7555,7 @@
       "rfc": "SCM091023TW3",
       "autorizado": 729.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2170488.53,
+      "sicop_mod": 729.26,
       "sicop_ejer": 729.0,
       "dif_mod": 0.2599999999999909,
       "prioridad": "ALTA",
@@ -7574,7 +7574,7 @@
       "rfc": "SCM091023TW3",
       "autorizado": 540199.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2170488.53,
+      "sicop_mod": 540199.06,
       "sicop_ejer": 540199.0,
       "dif_mod": 0.060000000055879354,
       "prioridad": "ALTA",
@@ -7593,12 +7593,12 @@
       "rfc": "SCM091023TW3",
       "autorizado": 564933.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2170488.53,
+      "sicop_mod": 564932.95,
       "sicop_ejer": 564933.0,
       "dif_mod": -0.05000000004656613,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 497,
@@ -7612,7 +7612,7 @@
       "rfc": "SCM091023TW3",
       "autorizado": 26707.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2170488.53,
+      "sicop_mod": 26707.43,
       "sicop_ejer": 26707.0,
       "dif_mod": 0.43000000000029104,
       "prioridad": "ALTA",
@@ -7631,12 +7631,12 @@
       "rfc": "SCM091023TW3",
       "autorizado": 71336.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2170488.53,
+      "sicop_mod": 71335.76,
       "sicop_ejer": 71336.0,
       "dif_mod": -0.2400000000052387,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 499,
@@ -7650,7 +7650,7 @@
       "rfc": "SCM091023TW3",
       "autorizado": 966584.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2170488.53,
+      "sicop_mod": 966584.07,
       "sicop_ejer": 966584.0,
       "dif_mod": 0.06999999994877726,
       "prioridad": "ALTA",
@@ -7669,12 +7669,12 @@
       "rfc": "FOS000306HXA",
       "autorizado": 712.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 4100802.74,
+      "sicop_mod": 711.94,
       "sicop_ejer": 712.0,
       "dif_mod": -0.05999999999994543,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 501,
@@ -7688,12 +7688,12 @@
       "rfc": "FOS000306HXA",
       "autorizado": 1623591.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 4100802.74,
+      "sicop_mod": 1623590.9,
       "sicop_ejer": 1623591.0,
       "dif_mod": -0.10000000009313226,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 502,
@@ -7707,12 +7707,12 @@
       "rfc": "FOS000306HXA",
       "autorizado": 872497.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 4100802.74,
+      "sicop_mod": 872496.58,
       "sicop_ejer": 872497.0,
       "dif_mod": -0.4200000000419095,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 503,
@@ -7726,12 +7726,12 @@
       "rfc": "FOS000306HXA",
       "autorizado": 25789.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 4100802.74,
+      "sicop_mod": 25788.77,
       "sicop_ejer": 25789.0,
       "dif_mod": -0.22999999999956344,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 504,
@@ -7745,7 +7745,7 @@
       "rfc": "FOS000306HXA",
       "autorizado": 152035.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 4100802.74,
+      "sicop_mod": 152035.24,
       "sicop_ejer": 152035.0,
       "dif_mod": 0.23999999999068677,
       "prioridad": "ALTA",
@@ -7764,7 +7764,7 @@
       "rfc": "FOS000306HXA",
       "autorizado": 1426179.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 4100802.74,
+      "sicop_mod": 1426179.31,
       "sicop_ejer": 1426179.0,
       "dif_mod": 0.31000000005587935,
       "prioridad": "ALTA",
@@ -7783,7 +7783,7 @@
       "rfc": "CVA910402GI5",
       "autorizado": 343013.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 473280.0,
+      "sicop_mod": 343013.0,
       "sicop_ejer": 343013.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -7802,7 +7802,7 @@
       "rfc": "CVA910402GI5",
       "autorizado": 32140.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 473280.0,
+      "sicop_mod": 32140.0,
       "sicop_ejer": 32140.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -7821,7 +7821,7 @@
       "rfc": "CVA910402GI5",
       "autorizado": 98127.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 473280.0,
+      "sicop_mod": 98127.0,
       "sicop_ejer": 98127.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -7840,7 +7840,7 @@
       "rfc": "CVA910402GI5",
       "autorizado": 137206.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 189312.0,
+      "sicop_mod": 137206.0,
       "sicop_ejer": 137206.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -7859,7 +7859,7 @@
       "rfc": "CVA910402GI5",
       "autorizado": 12856.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 189312.0,
+      "sicop_mod": 12856.0,
       "sicop_ejer": 12856.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -7878,7 +7878,7 @@
       "rfc": "CVA910402GI5",
       "autorizado": 39250.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 189312.0,
+      "sicop_mod": 39250.0,
       "sicop_ejer": 39250.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -7897,12 +7897,12 @@
       "rfc": "SAS090402BE3",
       "autorizado": 44342.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 791080.0,
+      "sicop_mod": 44341.88,
       "sicop_ejer": 44342.0,
       "dif_mod": -0.12000000000261934,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 513,
@@ -7916,12 +7916,12 @@
       "rfc": "SAS090402BE3",
       "autorizado": 409057.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 791080.0,
+      "sicop_mod": 409056.71,
       "sicop_ejer": 409057.0,
       "dif_mod": -0.28999999997904524,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 514,
@@ -7935,7 +7935,7 @@
       "rfc": "SAS090402BE3",
       "autorizado": 217959.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 791080.0,
+      "sicop_mod": 217959.0,
       "sicop_ejer": 217959.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -7954,7 +7954,7 @@
       "rfc": "SAS090402BE3",
       "autorizado": 119722.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 791080.0,
+      "sicop_mod": 119722.41,
       "sicop_ejer": 119722.0,
       "dif_mod": 0.41000000000349246,
       "prioridad": "ALTA",
@@ -7973,12 +7973,12 @@
       "rfc": "IEE130531IF9",
       "autorizado": 2000241.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3480000.0,
+      "sicop_mod": 2000240.75,
       "sicop_ejer": 2000241.0,
       "dif_mod": -0.25,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 517,
@@ -7992,7 +7992,7 @@
       "rfc": "IEE130531IF9",
       "autorizado": 217959.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3480000.0,
+      "sicop_mod": 217959.0,
       "sicop_ejer": 217959.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -8011,7 +8011,7 @@
       "rfc": "IEE130531IF9",
       "autorizado": 338867.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3480000.0,
+      "sicop_mod": 338867.0,
       "sicop_ejer": 338867.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -8030,7 +8030,7 @@
       "rfc": "IEE130531IF9",
       "autorizado": 922933.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3480000.0,
+      "sicop_mod": 922933.25,
       "sicop_ejer": 922933.0,
       "dif_mod": 0.25,
       "prioridad": "ALTA",
@@ -8087,7 +8087,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 139648.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 15595740.8,
+      "sicop_mod": 139648.0,
       "sicop_ejer": 139648.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -8106,12 +8106,12 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 11413350.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 15595740.8,
+      "sicop_mod": 11413349.8,
       "sicop_ejer": 11413350.0,
       "dif_mod": -0.19999999925494194,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 524,
@@ -8125,7 +8125,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 1949570.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 15595740.8,
+      "sicop_mod": 1949570.0,
       "sicop_ejer": 1949570.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -8144,7 +8144,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 710397.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 15595740.8,
+      "sicop_mod": 710397.0,
       "sicop_ejer": 710397.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -8163,7 +8163,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 1382776.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 15595740.8,
+      "sicop_mod": 1382776.0,
       "sicop_ejer": 1382776.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -8182,7 +8182,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 39899.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2579503.44,
+      "sicop_mod": 39899.0,
       "sicop_ejer": 39899.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -8201,7 +8201,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 556940.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2579503.44,
+      "sicop_mod": 556940.0,
       "sicop_ejer": 556940.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -8220,7 +8220,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 1384615.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2579503.44,
+      "sicop_mod": 1384615.44,
       "sicop_ejer": 1384615.0,
       "dif_mod": 0.43999999994412065,
       "prioridad": "CRÍTICA",
@@ -8239,7 +8239,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 202971.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2579503.44,
+      "sicop_mod": 202971.0,
       "sicop_ejer": 202971.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -8258,7 +8258,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 395078.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 2579503.44,
+      "sicop_mod": 395078.0,
       "sicop_ejer": 395078.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -8277,12 +8277,12 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 66978.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 14584767.55,
+      "sicop_mod": 57410.0,
       "sicop_ejer": 66978.0,
       "dif_mod": -9568.0,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 533,
@@ -8296,12 +8296,12 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 9228892.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 14584767.55,
+      "sicop_mod": 7010815.95,
       "sicop_ejer": 9228892.0,
       "dif_mod": -2218076.05,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 534,
@@ -8315,12 +8315,12 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 1651609.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 14584767.55,
+      "sicop_mod": 1415664.0,
       "sicop_ejer": 1651609.0,
       "dif_mod": -235945.0,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 535,
@@ -8334,12 +8334,12 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 306018.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 14584767.55,
+      "sicop_mod": 262302.0,
       "sicop_ejer": 306018.0,
       "dif_mod": -43716.0,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 536,
@@ -8353,12 +8353,12 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 6662763.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 14584767.55,
+      "sicop_mod": 5838575.6,
       "sicop_ejer": 6662763.0,
       "dif_mod": -824187.4000000004,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 537,
@@ -8410,7 +8410,7 @@
       "rfc": "PHO830421C59",
       "autorizado": 1836475.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3312717.73,
+      "sicop_mod": 1836475.15,
       "sicop_ejer": 1836475.0,
       "dif_mod": 0.14999999990686774,
       "prioridad": "ALTA",
@@ -8429,12 +8429,12 @@
       "rfc": "PHO830421C59",
       "autorizado": 1476243.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3312717.73,
+      "sicop_mod": 1476242.58,
       "sicop_ejer": 1476243.0,
       "dif_mod": -0.4199999999254942,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 541,
@@ -8847,7 +8847,7 @@
       "rfc": "PHO830421C59",
       "autorizado": 0.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1008956.6,
+      "sicop_mod": 0.02,
       "sicop_ejer": 0.0,
       "dif_mod": 0.02,
       "prioridad": "CRÍTICA",
@@ -8885,12 +8885,12 @@
       "rfc": "GST200929SN8",
       "autorizado": 340575.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 345100.0,
+      "sicop_mod": 340574.62,
       "sicop_ejer": 340575.0,
       "dif_mod": -0.3800000000046566,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 565,
@@ -8904,7 +8904,7 @@
       "rfc": "GST200929SN8",
       "autorizado": 4525.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 345100.0,
+      "sicop_mod": 4525.38,
       "sicop_ejer": 4525.0,
       "dif_mod": 0.38000000000010914,
       "prioridad": "ALTA",
@@ -8980,12 +8980,12 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 71204.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 5750203.19,
+      "sicop_mod": 0.0,
       "sicop_ejer": 71204.0,
       "dif_mod": -71204.0,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 570,
@@ -8999,12 +8999,12 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 3976755.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 5750203.19,
+      "sicop_mod": 80213.17,
       "sicop_ejer": 3976755.0,
       "dif_mod": -3896541.83,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 571,
@@ -9018,12 +9018,12 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 400901.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 5750203.19,
+      "sicop_mod": 0.0,
       "sicop_ejer": 400901.0,
       "dif_mod": -400901.0,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 572,
@@ -9037,12 +9037,12 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 788542.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 5750203.19,
+      "sicop_mod": 0.0,
       "sicop_ejer": 788542.0,
       "dif_mod": -788542.0,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 573,
@@ -9056,12 +9056,12 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 512802.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 5750203.19,
+      "sicop_mod": 35092.71,
       "sicop_ejer": 512802.0,
       "dif_mod": -477709.29,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 574,
@@ -9113,7 +9113,7 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 9568.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3009879.0,
+      "sicop_mod": 9568.0,
       "sicop_ejer": 9568.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -9132,12 +9132,12 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 2322431.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3009879.0,
+      "sicop_mod": 2322430.98,
       "sicop_ejer": 2322431.0,
       "dif_mod": -0.02000000001862645,
       "prioridad": "CRÍTICA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 578,
@@ -9151,7 +9151,7 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 235945.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3009879.0,
+      "sicop_mod": 235945.0,
       "sicop_ejer": 235945.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -9170,7 +9170,7 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 43716.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3009879.0,
+      "sicop_mod": 43716.0,
       "sicop_ejer": 43716.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -9189,7 +9189,7 @@
       "rfc": "SAVI970203DU7",
       "autorizado": 398219.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3009879.0,
+      "sicop_mod": 398219.02,
       "sicop_ejer": 398219.0,
       "dif_mod": 0.02000000001862645,
       "prioridad": "CRÍTICA",
@@ -9531,7 +9531,7 @@
       "rfc": "AGR900605VC6",
       "autorizado": 232.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1641380.77,
+      "sicop_mod": 232.12,
       "sicop_ejer": 232.0,
       "dif_mod": 0.12000000000000455,
       "prioridad": "ALTA",
@@ -9550,12 +9550,12 @@
       "rfc": "AGR900605VC6",
       "autorizado": 1344125.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1641380.77,
+      "sicop_mod": 1344124.65,
       "sicop_ejer": 1344125.0,
       "dif_mod": -0.35000000009313226,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 600,
@@ -9569,7 +9569,7 @@
       "rfc": "AGR900605VC6",
       "autorizado": 297024.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1641380.77,
+      "sicop_mod": 297024.0,
       "sicop_ejer": 297024.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -9607,7 +9607,7 @@
       "rfc": "SARG840315492",
       "autorizado": 62.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 548541.42,
+      "sicop_mod": 62.4,
       "sicop_ejer": 62.0,
       "dif_mod": 0.3999999999999986,
       "prioridad": "ALTA",
@@ -9626,7 +9626,7 @@
       "rfc": "SARG840315492",
       "autorizado": 548479.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 548541.42,
+      "sicop_mod": 548479.02,
       "sicop_ejer": 548479.0,
       "dif_mod": 0.02000000001862645,
       "prioridad": "ALTA",
@@ -9645,12 +9645,12 @@
       "rfc": "UEX061010HL7",
       "autorizado": 45823.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 95157.7,
+      "sicop_mod": 45822.97,
       "sicop_ejer": 45823.0,
       "dif_mod": -0.029999999998835847,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 605,
@@ -9664,12 +9664,12 @@
       "rfc": "UEX061010HL7",
       "autorizado": 49335.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 95157.7,
+      "sicop_mod": 49334.73,
       "sicop_ejer": 49335.0,
       "dif_mod": -0.2699999999967986,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 606,
@@ -9683,7 +9683,7 @@
       "rfc": "GIE9303031Z0",
       "autorizado": 190294.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 275964.0,
+      "sicop_mod": 190294.45,
       "sicop_ejer": 190294.0,
       "dif_mod": 0.45000000001164153,
       "prioridad": "ALTA",
@@ -9702,12 +9702,12 @@
       "rfc": "GIE9303031Z0",
       "autorizado": 85670.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 275964.0,
+      "sicop_mod": 85669.55,
       "sicop_ejer": 85670.0,
       "dif_mod": -0.4499999999970896,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 608,
@@ -9721,7 +9721,7 @@
       "rfc": "RIGD920121AJ7",
       "autorizado": 140000.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 256731.2,
+      "sicop_mod": 140000.0,
       "sicop_ejer": 140000.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -9740,7 +9740,7 @@
       "rfc": "RIGD920121AJ7",
       "autorizado": 116731.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 256731.2,
+      "sicop_mod": 116731.2,
       "sicop_ejer": 116731.0,
       "dif_mod": 0.19999999999708962,
       "prioridad": "CRÍTICA",
@@ -9759,12 +9759,12 @@
       "rfc": "CEMI5307038U2",
       "autorizado": 49851.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 55558.2,
+      "sicop_mod": 49850.69,
       "sicop_ejer": 49851.0,
       "dif_mod": -0.3099999999976717,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 611,
@@ -9778,12 +9778,12 @@
       "rfc": "CEMI5307038U2",
       "autorizado": 5708.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 55558.2,
+      "sicop_mod": 5707.51,
       "sicop_ejer": 5708.0,
       "dif_mod": -0.4899999999997817,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 612,
@@ -9816,12 +9816,12 @@
       "rfc": "HEAS0010032RA",
       "autorizado": 15120.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 159015.72,
+      "sicop_mod": 0.0,
       "sicop_ejer": 15120.0,
       "dif_mod": -15120.0,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 614,
@@ -9835,12 +9835,12 @@
       "rfc": "VEC831119793",
       "autorizado": 24057.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 635443.54,
+      "sicop_mod": 24056.54,
       "sicop_ejer": 24057.0,
       "dif_mod": -0.4599999999991269,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 615,
@@ -9854,7 +9854,7 @@
       "rfc": "VEC831119793",
       "autorizado": 611387.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 635443.54,
+      "sicop_mod": 611387.0,
       "sicop_ejer": 611387.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -9873,7 +9873,7 @@
       "rfc": "GCO071031BFA",
       "autorizado": 386040.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1101072.0,
+      "sicop_mod": 386040.16,
       "sicop_ejer": 386040.0,
       "dif_mod": 0.15999999997438863,
       "prioridad": "ALTA",
@@ -9892,7 +9892,7 @@
       "rfc": "GCO071031BFA",
       "autorizado": 6098.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1101072.0,
+      "sicop_mod": 6098.4,
       "sicop_ejer": 6098.0,
       "dif_mod": 0.3999999999996362,
       "prioridad": "ALTA",
@@ -9911,7 +9911,7 @@
       "rfc": "GCO071031BFA",
       "autorizado": 2306.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1101072.0,
+      "sicop_mod": 2306.4,
       "sicop_ejer": 2306.0,
       "dif_mod": 0.40000000000009095,
       "prioridad": "ALTA",
@@ -9930,7 +9930,7 @@
       "rfc": "GCO071031BFA",
       "autorizado": 706627.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1101072.0,
+      "sicop_mod": 706627.04,
       "sicop_ejer": 706627.0,
       "dif_mod": 0.0400000000372529,
       "prioridad": "ALTA",
@@ -9949,12 +9949,12 @@
       "rfc": "APE950801FJ4",
       "autorizado": 138149.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 392194.84,
+      "sicop_mod": 138148.68,
       "sicop_ejer": 138149.0,
       "dif_mod": -0.3200000000069849,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 621,
@@ -9968,7 +9968,7 @@
       "rfc": "APE950801FJ4",
       "autorizado": 254046.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 392194.84,
+      "sicop_mod": 254046.16,
       "sicop_ejer": 254046.0,
       "dif_mod": 0.16000000000349246,
       "prioridad": "ALTA",
@@ -9987,7 +9987,7 @@
       "rfc": "DMM040206NG8",
       "autorizado": 2261608.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1750782.4,
+      "sicop_mod": 1368047.81,
       "sicop_ejer": 2261608.0,
       "dif_mod": -893560.19,
       "prioridad": "ALTA",
@@ -10006,12 +10006,12 @@
       "rfc": "DMM040206NG8",
       "autorizado": 17990.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1750782.4,
+      "sicop_mod": 17989.57,
       "sicop_ejer": 17990.0,
       "dif_mod": -0.43000000000029104,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 624,
@@ -10025,7 +10025,7 @@
       "rfc": "DMM040206NG8",
       "autorizado": 6428.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1750782.4,
+      "sicop_mod": 6428.0,
       "sicop_ejer": 6428.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -10044,12 +10044,12 @@
       "rfc": "DMM040206NG8",
       "autorizado": 13822.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1750782.4,
+      "sicop_mod": 13821.76,
       "sicop_ejer": 13822.0,
       "dif_mod": -0.23999999999978172,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 626,
@@ -10063,12 +10063,12 @@
       "rfc": "DMM040206NG8",
       "autorizado": 690611.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1750782.4,
+      "sicop_mod": 344495.26,
       "sicop_ejer": 690611.0,
       "dif_mod": -346115.74,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 627,
@@ -10101,7 +10101,7 @@
       "rfc": "CEI9904151C0",
       "autorizado": 40682.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 347841.66,
+      "sicop_mod": 40682.32,
       "sicop_ejer": 40682.0,
       "dif_mod": 0.31999999999970896,
       "prioridad": "ALTA",
@@ -10120,7 +10120,7 @@
       "rfc": "CEI9904151C0",
       "autorizado": 307159.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 347841.66,
+      "sicop_mod": 307159.34,
       "sicop_ejer": 307159.0,
       "dif_mod": 0.34000000002561137,
       "prioridad": "ALTA",
@@ -10139,7 +10139,7 @@
       "rfc": "RCO980218454",
       "autorizado": 5844.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3283591.76,
+      "sicop_mod": 5844.0,
       "sicop_ejer": 5844.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -10158,7 +10158,7 @@
       "rfc": "RCO980218454",
       "autorizado": 1540746.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3283591.76,
+      "sicop_mod": 1540746.12,
       "sicop_ejer": 1540746.0,
       "dif_mod": 0.12000000011175871,
       "prioridad": "ALTA",
@@ -10177,7 +10177,7 @@
       "rfc": "RCO980218454",
       "autorizado": 157554.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3283591.76,
+      "sicop_mod": 157554.0,
       "sicop_ejer": 157554.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -10196,7 +10196,7 @@
       "rfc": "RCO980218454",
       "autorizado": 120513.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3283591.76,
+      "sicop_mod": 120513.09,
       "sicop_ejer": 120513.0,
       "dif_mod": 0.08999999999650754,
       "prioridad": "ALTA",
@@ -10215,12 +10215,12 @@
       "rfc": "RCO980218454",
       "autorizado": 1458935.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 3283591.76,
+      "sicop_mod": 1458934.55,
       "sicop_ejer": 1458935.0,
       "dif_mod": -0.44999999995343387,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 635,
@@ -10291,12 +10291,12 @@
       "rfc": "IEE150615IP3",
       "autorizado": 61773.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 223416.0,
+      "sicop_mod": 61772.82,
       "sicop_ejer": 61773.0,
       "dif_mod": -0.18000000000029104,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 639,
@@ -10310,7 +10310,7 @@
       "rfc": "IEE150615IP3",
       "autorizado": 161643.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 223416.0,
+      "sicop_mod": 161643.18,
       "sicop_ejer": 161643.0,
       "dif_mod": 0.17999999999301508,
       "prioridad": "ALTA",
@@ -10329,12 +10329,12 @@
       "rfc": "GAMA740121S40",
       "autorizado": 178901.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 672800.0,
+      "sicop_mod": 178900.79,
       "sicop_ejer": 178901.0,
       "dif_mod": -0.20999999999185093,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 641,
@@ -10348,7 +10348,7 @@
       "rfc": "GAMA740121S40",
       "autorizado": 493899.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 672800.0,
+      "sicop_mod": 493899.21,
       "sicop_ejer": 493899.0,
       "dif_mod": 0.21000000002095476,
       "prioridad": "ALTA",
@@ -10367,7 +10367,7 @@
       "rfc": "MOCF8107177M1",
       "autorizado": 749613.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 909792.64,
+      "sicop_mod": 749613.03,
       "sicop_ejer": 749613.0,
       "dif_mod": 0.030000000027939677,
       "prioridad": "ALTA",
@@ -10386,7 +10386,7 @@
       "rfc": "MOCF8107177M1",
       "autorizado": 71211.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 909792.64,
+      "sicop_mod": 71211.18,
       "sicop_ejer": 71211.0,
       "dif_mod": 0.17999999999301508,
       "prioridad": "ALTA",
@@ -10405,7 +10405,7 @@
       "rfc": "MOCF8107177M1",
       "autorizado": 19284.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 909792.64,
+      "sicop_mod": 19284.0,
       "sicop_ejer": 19284.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -10424,7 +10424,7 @@
       "rfc": "MOCF8107177M1",
       "autorizado": 69684.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 909792.64,
+      "sicop_mod": 69684.43,
       "sicop_ejer": 69684.0,
       "dif_mod": 0.4299999999930151,
       "prioridad": "ALTA",
@@ -10481,12 +10481,12 @@
       "rfc": "IEE150615IP3",
       "autorizado": 47056.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 78426.44,
+      "sicop_mod": 47055.86,
       "sicop_ejer": 47056.0,
       "dif_mod": -0.13999999999941792,
       "prioridad": "CRÍTICA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 649,
@@ -10500,12 +10500,12 @@
       "rfc": "IEE150615IP3",
       "autorizado": 31371.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 78426.44,
+      "sicop_mod": 31370.58,
       "sicop_ejer": 31371.0,
       "dif_mod": -0.41999999999825377,
       "prioridad": "CRÍTICA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 650,
@@ -10519,7 +10519,7 @@
       "rfc": "GTE150525ULA",
       "autorizado": 106176.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 30877206.93,
+      "sicop_mod": 106176.45,
       "sicop_ejer": 106176.0,
       "dif_mod": 0.4499999999970896,
       "prioridad": "ALTA",
@@ -10538,7 +10538,7 @@
       "rfc": "GTE150525ULA",
       "autorizado": 15527162.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 30877206.93,
+      "sicop_mod": 15527162.07,
       "sicop_ejer": 15527162.0,
       "dif_mod": 0.07000000029802322,
       "prioridad": "ALTA",
@@ -10557,12 +10557,12 @@
       "rfc": "GTE150525ULA",
       "autorizado": 1382826.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 30877206.93,
+      "sicop_mod": 1382825.72,
       "sicop_ejer": 1382826.0,
       "dif_mod": -0.2800000000279397,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 653,
@@ -10576,12 +10576,12 @@
       "rfc": "GTE150525ULA",
       "autorizado": 1998689.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 30877206.93,
+      "sicop_mod": 1998688.78,
       "sicop_ejer": 1998689.0,
       "dif_mod": -0.21999999997206032,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 654,
@@ -10595,12 +10595,12 @@
       "rfc": "GTE150525ULA",
       "autorizado": 11862354.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 30877206.93,
+      "sicop_mod": 11862353.91,
       "sicop_ejer": 11862354.0,
       "dif_mod": -0.08999999985098839,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 655,
@@ -10614,7 +10614,7 @@
       "rfc": "SIM140625EW1",
       "autorizado": 38274.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 844595.24,
+      "sicop_mod": 38274.0,
       "sicop_ejer": 38274.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -10633,7 +10633,7 @@
       "rfc": "SIM140625EW1",
       "autorizado": 231247.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 844595.24,
+      "sicop_mod": 231247.14,
       "sicop_ejer": 231247.0,
       "dif_mod": 0.14000000001396984,
       "prioridad": "ALTA",
@@ -10652,7 +10652,7 @@
       "rfc": "SIM140625EW1",
       "autorizado": 146189.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 844595.24,
+      "sicop_mod": 146189.0,
       "sicop_ejer": 146189.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -10671,7 +10671,7 @@
       "rfc": "SIM140625EW1",
       "autorizado": 174868.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 844595.24,
+      "sicop_mod": 174868.0,
       "sicop_ejer": 174868.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -10690,7 +10690,7 @@
       "rfc": "SIM140625EW1",
       "autorizado": 254017.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 844595.24,
+      "sicop_mod": 254017.1,
       "sicop_ejer": 254017.0,
       "dif_mod": 0.10000000000582077,
       "prioridad": "ALTA",
@@ -10709,7 +10709,7 @@
       "rfc": "SPM211020IV0",
       "autorizado": 776437.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1013985.41,
+      "sicop_mod": 776437.37,
       "sicop_ejer": 776437.0,
       "dif_mod": 0.3699999999953434,
       "prioridad": "ALTA",
@@ -10728,7 +10728,7 @@
       "rfc": "SPM211020IV0",
       "autorizado": 237548.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 1013985.41,
+      "sicop_mod": 237548.04,
       "sicop_ejer": 237548.0,
       "dif_mod": 0.04000000000814907,
       "prioridad": "ALTA",
@@ -10747,12 +10747,12 @@
       "rfc": "SIM140625EW1",
       "autorizado": 3388.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 268693.99,
+      "sicop_mod": 3387.55,
       "sicop_ejer": 3388.0,
       "dif_mod": -0.4499999999998181,
       "prioridad": "CRÍTICA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 663,
@@ -10766,12 +10766,12 @@
       "rfc": "SIM140625EW1",
       "autorizado": 75604.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 268693.99,
+      "sicop_mod": 75603.76,
       "sicop_ejer": 75604.0,
       "dif_mod": -0.2400000000052387,
       "prioridad": "CRÍTICA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 664,
@@ -10785,7 +10785,7 @@
       "rfc": "SIM140625EW1",
       "autorizado": 20325.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 268693.99,
+      "sicop_mod": 20325.28,
       "sicop_ejer": 20325.0,
       "dif_mod": 0.27999999999883585,
       "prioridad": "CRÍTICA",
@@ -10804,7 +10804,7 @@
       "rfc": "SIM140625EW1",
       "autorizado": 50813.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 268693.99,
+      "sicop_mod": 50813.22,
       "sicop_ejer": 50813.0,
       "dif_mod": 0.22000000000116415,
       "prioridad": "CRÍTICA",
@@ -10823,7 +10823,7 @@
       "rfc": "SIM140625EW1",
       "autorizado": 118564.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 268693.99,
+      "sicop_mod": 118564.18,
       "sicop_ejer": 118564.0,
       "dif_mod": 0.17999999999301508,
       "prioridad": "CRÍTICA",
@@ -10842,7 +10842,7 @@
       "rfc": "PPS191003JX1",
       "autorizado": 31305.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 7554026.11,
+      "sicop_mod": 31305.0,
       "sicop_ejer": 31305.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -10861,7 +10861,7 @@
       "rfc": "PPS191003JX1",
       "autorizado": 3089800.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 7554026.11,
+      "sicop_mod": 3089800.2,
       "sicop_ejer": 3089800.0,
       "dif_mod": 0.20000000018626451,
       "prioridad": "CRÍTICA",
@@ -10880,7 +10880,7 @@
       "rfc": "PPS191003JX1",
       "autorizado": 400900.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 7554026.11,
+      "sicop_mod": 400900.0,
       "sicop_ejer": 400900.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -10899,7 +10899,7 @@
       "rfc": "PPS191003JX1",
       "autorizado": 585571.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 7554026.11,
+      "sicop_mod": 585571.0,
       "sicop_ejer": 585571.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -10918,12 +10918,12 @@
       "rfc": "PPS191003JX1",
       "autorizado": 3446450.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 7554026.11,
+      "sicop_mod": 3446449.91,
       "sicop_ejer": 3446450.0,
       "dif_mod": -0.08999999985098839,
       "prioridad": "CRÍTICA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 672,
@@ -10937,7 +10937,7 @@
       "rfc": "GTE150525ULA",
       "autorizado": 226550.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 348580.0,
+      "sicop_mod": 226550.42,
       "sicop_ejer": 226550.0,
       "dif_mod": 0.4200000000128057,
       "prioridad": "ALTA",
@@ -10956,12 +10956,12 @@
       "rfc": "GTE150525ULA",
       "autorizado": 122030.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 348580.0,
+      "sicop_mod": 122029.58,
       "sicop_ejer": 122030.0,
       "dif_mod": -0.41999999999825377,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 674,
@@ -10994,7 +10994,7 @@
       "rfc": "BUC000703MN3",
       "autorizado": 556.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 141520.0,
+      "sicop_mod": 556.0,
       "sicop_ejer": 556.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -11013,7 +11013,7 @@
       "rfc": "BUC000703MN3",
       "autorizado": 136622.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 141520.0,
+      "sicop_mod": 136622.0,
       "sicop_ejer": 136622.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -11032,7 +11032,7 @@
       "rfc": "BUC000703MN3",
       "autorizado": 842.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 141520.0,
+      "sicop_mod": 842.0,
       "sicop_ejer": 842.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -11051,7 +11051,7 @@
       "rfc": "BUC000703MN3",
       "autorizado": 2786.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 141520.0,
+      "sicop_mod": 2786.0,
       "sicop_ejer": 2786.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -11070,7 +11070,7 @@
       "rfc": "BUC000703MN3",
       "autorizado": 714.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 141520.0,
+      "sicop_mod": 714.0,
       "sicop_ejer": 714.0,
       "dif_mod": 0.0,
       "prioridad": "CRÍTICA",
@@ -11089,7 +11089,7 @@
       "rfc": "BIO181024LL4",
       "autorizado": 2498.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 295691.08,
+      "sicop_mod": 2498.0,
       "sicop_ejer": 2498.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -11108,12 +11108,12 @@
       "rfc": "BIO181024LL4",
       "autorizado": 273655.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 295691.08,
+      "sicop_mod": 243248.96,
       "sicop_ejer": 273655.0,
       "dif_mod": -30406.040000000008,
       "prioridad": "ALTA",
       "capitulo": "3000",
-      "que_paso": "Almacén registró un importe menor por "
+      "que_paso": "Almacén registró un importe mayor por "
     },
     {
       "id": 682,
@@ -11127,7 +11127,7 @@
       "rfc": "BIO181024LL4",
       "autorizado": 3786.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 295691.08,
+      "sicop_mod": 3786.0,
       "sicop_ejer": 3786.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -11146,7 +11146,7 @@
       "rfc": "BIO181024LL4",
       "autorizado": 12537.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 295691.08,
+      "sicop_mod": 12537.0,
       "sicop_ejer": 12537.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -11165,7 +11165,7 @@
       "rfc": "BIO181024LL4",
       "autorizado": 3215.0,
       "comprometido_sicop": "SI",
-      "sicop_mod": 295691.08,
+      "sicop_mod": 3215.0,
       "sicop_ejer": 3215.0,
       "dif_mod": 0.0,
       "prioridad": "ALTA",
@@ -14148,7 +14148,7 @@
       "rfc": "CSE081030C47",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 150574.02,
+      "sicop_mod": 4350.0,
       "sicop_ejer": 0.0,
       "dif_mod": 4350.0,
       "prioridad": "ALTA",
@@ -14623,7 +14623,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 15595740.8,
+      "sicop_mod": 139648.0,
       "sicop_ejer": 0.0,
       "dif_mod": 139648.0,
       "prioridad": "CRÍTICA",
@@ -14642,7 +14642,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 15595740.8,
+      "sicop_mod": 11413349.8,
       "sicop_ejer": 0.0,
       "dif_mod": 11413349.8,
       "prioridad": "CRÍTICA",
@@ -14661,7 +14661,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 15595740.8,
+      "sicop_mod": 1382776.0,
       "sicop_ejer": 0.0,
       "dif_mod": 1382776.0,
       "prioridad": "CRÍTICA",
@@ -14680,7 +14680,7 @@
       "rfc": "RMS110428FQ9",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 15595740.8,
+      "sicop_mod": 710397.0,
       "sicop_ejer": 0.0,
       "dif_mod": 710397.0,
       "prioridad": "CRÍTICA",
@@ -14699,7 +14699,7 @@
       "rfc": "PHO830421C59",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 3312717.73,
+      "sicop_mod": 1836475.15,
       "sicop_ejer": 0.0,
       "dif_mod": 1836475.15,
       "prioridad": "CRÍTICA",
@@ -14737,7 +14737,7 @@
       "rfc": "GTE150525ULA",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 30877206.93,
+      "sicop_mod": 106176.45,
       "sicop_ejer": 0.0,
       "dif_mod": 106176.45,
       "prioridad": "CRÍTICA",
@@ -14756,7 +14756,7 @@
       "rfc": "GTE150525ULA",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 30877206.93,
+      "sicop_mod": 15527162.07,
       "sicop_ejer": 0.0,
       "dif_mod": 15527162.07,
       "prioridad": "CRÍTICA",
@@ -14775,7 +14775,7 @@
       "rfc": "GTE150525ULA",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 30877206.93,
+      "sicop_mod": 1382825.72,
       "sicop_ejer": 0.0,
       "dif_mod": 1382825.72,
       "prioridad": "CRÍTICA",
@@ -14794,7 +14794,7 @@
       "rfc": "GTE150525ULA",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 30877206.93,
+      "sicop_mod": 1998688.78,
       "sicop_ejer": 0.0,
       "dif_mod": 1998688.78,
       "prioridad": "CRÍTICA",
@@ -16124,7 +16124,7 @@
       "rfc": "IMB510327A78",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 622836.2,
+      "sicop_mod": 2851.0,
       "sicop_ejer": 0.0,
       "dif_mod": 2851.0,
       "prioridad": "ALTA",
@@ -16181,7 +16181,7 @@
       "rfc": "LPI830527KJ2",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 240279.81,
+      "sicop_mod": 5096.59,
       "sicop_ejer": 0.0,
       "dif_mod": 5096.59,
       "prioridad": "ALTA",
@@ -16200,7 +16200,7 @@
       "rfc": "LSC130111DL8",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 4325.16,
+      "sicop_mod": 1643.88,
       "sicop_ejer": 0.0,
       "dif_mod": 1643.88,
       "prioridad": "ALTA",
@@ -16238,7 +16238,7 @@
       "rfc": "MJN081127NC5",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 1150560.0,
+      "sicop_mod": 3615.82,
       "sicop_ejer": 0.0,
       "dif_mod": 3615.82,
       "prioridad": "ALTA",
@@ -16276,7 +16276,7 @@
       "rfc": "PMA930216GB2",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 43322.51,
+      "sicop_mod": 2989.69,
       "sicop_ejer": 0.0,
       "dif_mod": 2989.69,
       "prioridad": "ALTA",
@@ -16314,7 +16314,7 @@
       "rfc": "LPI830527KJ2",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 160849.25,
+      "sicop_mod": 11991.32,
       "sicop_ejer": 0.0,
       "dif_mod": 11991.32,
       "prioridad": "ALTA",
@@ -16523,7 +16523,7 @@
       "rfc": "MJN081127NC5",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 47141.0,
+      "sicop_mod": 28261.0,
       "sicop_ejer": 0.0,
       "dif_mod": 28261.0,
       "prioridad": "ALTA",
@@ -16656,7 +16656,7 @@
       "rfc": "SIM140625EW1",
       "autorizado": 0.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 844595.24,
+      "sicop_mod": 231247.14,
       "sicop_ejer": 0.0,
       "dif_mod": 231247.14,
       "prioridad": "CRÍTICA",
@@ -16675,7 +16675,7 @@
       "rfc": "GEN7908272C1",
       "autorizado": 2092989.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 2539936.01,
+      "sicop_mod": 2092989.15,
       "sicop_ejer": 0.0,
       "dif_mod": 2092989.15,
       "prioridad": "CRÍTICA",
@@ -16827,7 +16827,7 @@
       "rfc": "DME971017FZ7",
       "autorizado": 296604.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 474031.05,
+      "sicop_mod": 296603.65,
       "sicop_ejer": 0.0,
       "dif_mod": 296603.65,
       "prioridad": "CRÍTICA",
@@ -16922,7 +16922,7 @@
       "rfc": "QUI040525KW7",
       "autorizado": 105794.0,
       "comprometido_sicop": "NO",
-      "sicop_mod": 443368.45,
+      "sicop_mod": 105794.38,
       "sicop_ejer": 0.0,
       "dif_mod": 105794.38,
       "prioridad": "CRÍTICA",
@@ -17166,7 +17166,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 23316.0,
-      "sicop_mod": 23316.0,
+      "sicop_mod": 12876.0,
       "partidas_count": 2
     },
     {
@@ -17256,7 +17256,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 393112.0,
-      "sicop_mod": 393111.75,
+      "sicop_mod": 325267.75,
       "partidas_count": 2
     },
     {
@@ -17266,7 +17266,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 2045166.0,
-      "sicop_mod": 2045165.49,
+      "sicop_mod": 357378.9,
       "partidas_count": 2
     },
     {
@@ -17366,7 +17366,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 3096732.0,
-      "sicop_mod": 3096731.45,
+      "sicop_mod": 2804646.58,
       "partidas_count": 2
     },
     {
@@ -17386,7 +17386,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 707323.0,
-      "sicop_mod": 707322.76,
+      "sicop_mod": 304230.56,
       "partidas_count": 2
     },
     {
@@ -17406,7 +17406,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 3023889.0,
-      "sicop_mod": 3023888.0,
+      "sicop_mod": 798874.73,
       "partidas_count": 4
     },
     {
@@ -17416,7 +17416,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 1953895.0,
-      "sicop_mod": 1953894.72,
+      "sicop_mod": 1282922.55,
       "partidas_count": 3
     },
     {
@@ -17436,7 +17436,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 143898.0,
-      "sicop_mod": 143898.0,
+      "sicop_mod": 47908.0,
       "partidas_count": 2
     },
     {
@@ -17446,7 +17446,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 473744.0,
-      "sicop_mod": 473744.0,
+      "sicop_mod": 317918.0,
       "partidas_count": 2
     },
     {
@@ -17466,7 +17466,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 240306.0,
-      "sicop_mod": 240305.6,
+      "sicop_mod": 3433.6,
       "partidas_count": 2
     },
     {
@@ -17486,7 +17486,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 1951405.0,
-      "sicop_mod": 1951405.36,
+      "sicop_mod": 1878211.4,
       "partidas_count": 3
     },
     {
@@ -17506,7 +17506,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 351410.0,
-      "sicop_mod": 351410.4,
+      "sicop_mod": 273289.96,
       "partidas_count": 2
     },
     {
@@ -17576,7 +17576,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 1407393.0,
-      "sicop_mod": 1407393.2,
+      "sicop_mod": 1196754.78,
       "partidas_count": 3
     },
     {
@@ -17646,7 +17646,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 143275.0,
-      "sicop_mod": 143275.66,
+      "sicop_mod": 128717.24,
       "partidas_count": 3
     },
     {
@@ -17966,7 +17966,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 1408175.0,
-      "sicop_mod": 2125846.29,
+      "sicop_mod": 1408174.71,
       "partidas_count": 1
     },
     {
@@ -17986,7 +17986,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 588605.0,
-      "sicop_mod": 588604.92,
+      "sicop_mod": 150167.88,
       "partidas_count": 3
     },
     {
@@ -18016,7 +18016,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 259362.0,
-      "sicop_mod": 432296.56,
+      "sicop_mod": 259362.4,
       "partidas_count": 1
     },
     {
@@ -18246,7 +18246,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 15932.0,
-      "sicop_mod": 33744.5,
+      "sicop_mod": 15932.0,
       "partidas_count": 1
     },
     {
@@ -18266,7 +18266,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 638000.0,
-      "sicop_mod": 500261.6,
+      "sicop_mod": 319000.0,
       "partidas_count": 2
     },
     {
@@ -18286,7 +18286,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 15525.0,
-      "sicop_mod": 47265.0,
+      "sicop_mod": 15525.0,
       "partidas_count": 1
     },
     {
@@ -18306,7 +18306,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 582300.0,
-      "sicop_mod": 390141.0,
+      "sicop_mod": 291150.0,
       "partidas_count": 2
     },
     {
@@ -18316,7 +18316,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 2851.0,
-      "sicop_mod": 622836.2,
+      "sicop_mod": 2851.0,
       "partidas_count": 1
     },
     {
@@ -18336,7 +18336,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 240280.0,
-      "sicop_mod": 240279.81,
+      "sicop_mod": 5096.59,
       "partidas_count": 2
     },
     {
@@ -18346,7 +18346,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 1644.0,
-      "sicop_mod": 4325.16,
+      "sicop_mod": 1643.88,
       "partidas_count": 1
     },
     {
@@ -18366,7 +18366,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 1150560.0,
-      "sicop_mod": 1150560.0,
+      "sicop_mod": 3615.82,
       "partidas_count": 2
     },
     {
@@ -18386,7 +18386,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 48080.0,
-      "sicop_mod": 28222.86,
+      "sicop_mod": 24040.3,
       "partidas_count": 2
     },
     {
@@ -18396,7 +18396,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 43323.0,
-      "sicop_mod": 43322.51,
+      "sicop_mod": 2989.69,
       "partidas_count": 2
     },
     {
@@ -18406,7 +18406,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 196892.0,
-      "sicop_mod": 245831.65,
+      "sicop_mod": 196892.05,
       "partidas_count": 1
     },
     {
@@ -18446,7 +18446,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 230040.0,
-      "sicop_mod": 230324.0,
+      "sicop_mod": 3087.73,
       "partidas_count": 2
     },
     {
@@ -18486,7 +18486,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 70076.0,
-      "sicop_mod": 160849.25,
+      "sicop_mod": 11991.32,
       "partidas_count": 2
     },
     {
@@ -18526,7 +18526,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 202304.0,
-      "sicop_mod": 126678.0,
+      "sicop_mod": 101152.0,
       "partidas_count": 2
     },
     {
@@ -18586,7 +18586,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 153425.0,
-      "sicop_mod": 248095.0,
+      "sicop_mod": 115615.0,
       "partidas_count": 3
     },
     {
@@ -18596,7 +18596,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 155250.0,
-      "sicop_mod": 155250.0,
+      "sicop_mod": 122456.71,
       "partidas_count": 2
     },
     {
@@ -18606,7 +18606,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 145710.0,
-      "sicop_mod": 128989.8,
+      "sicop_mod": 48968.35,
       "partidas_count": 3
     },
     {
@@ -18716,7 +18716,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 986043.0,
-      "sicop_mod": 986042.4,
+      "sicop_mod": 145925.83,
       "partidas_count": 4
     },
     {
@@ -18736,7 +18736,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 65625.0,
-      "sicop_mod": 65625.0,
+      "sicop_mod": 21750.0,
       "partidas_count": 2
     },
     {
@@ -18816,7 +18816,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 65800.0,
-      "sicop_mod": 65800.0,
+      "sicop_mod": 18300.0,
       "partidas_count": 2
     },
     {
@@ -18826,7 +18826,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 47141.0,
-      "sicop_mod": 47141.0,
+      "sicop_mod": 28261.0,
       "partidas_count": 2
     },
     {
@@ -18926,7 +18926,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 115536.0,
-      "sicop_mod": 115536.0,
+      "sicop_mod": 18266.23,
       "partidas_count": 2
     },
     {
@@ -18966,7 +18966,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 787428.0,
-      "sicop_mod": 787428.3,
+      "sicop_mod": 132268.15,
       "partidas_count": 2
     },
     {
@@ -19216,7 +19216,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 3138603.0,
-      "sicop_mod": 3138603.16,
+      "sicop_mod": 500406.66,
       "partidas_count": 3
     },
     {
@@ -19256,7 +19256,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 2997.0,
-      "sicop_mod": 134877.84,
+      "sicop_mod": 2997.44,
       "partidas_count": 1
     },
     {
@@ -19326,7 +19326,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 156103.0,
-      "sicop_mod": 156103.4,
+      "sicop_mod": 58629.31,
       "partidas_count": 2
     },
     {
@@ -19486,7 +19486,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 593208.0,
-      "sicop_mod": 474031.05,
+      "sicop_mod": 296603.65,
       "partidas_count": 2
     },
     {
@@ -19556,7 +19556,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 211588.0,
-      "sicop_mod": 443368.45,
+      "sicop_mod": 105794.38,
       "partidas_count": 2
     },
     {
@@ -19776,7 +19776,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 151960.0,
-      "sicop_mod": 151960.0,
+      "sicop_mod": 140618.44,
       "partidas_count": 2
     },
     {
@@ -19806,7 +19806,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 65308.0,
-      "sicop_mod": 364588.0,
+      "sicop_mod": 65308.0,
       "partidas_count": 1
     },
     {
@@ -19846,7 +19846,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 191400.0,
-      "sicop_mod": 191400.0,
+      "sicop_mod": 69993.93,
       "partidas_count": 2
     },
     {
@@ -19856,7 +19856,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 100802.0,
-      "sicop_mod": 100802.14,
+      "sicop_mod": 44891.3,
       "partidas_count": 2
     },
     {
@@ -20136,7 +20136,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 296088.0,
-      "sicop_mod": 296087.68,
+      "sicop_mod": 59945.08,
       "partidas_count": 2
     },
     {
@@ -20146,7 +20146,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 4350.0,
-      "sicop_mod": 150574.02,
+      "sicop_mod": 4350.0,
       "partidas_count": 2
     },
     {
@@ -20196,7 +20196,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 4632925.0,
-      "sicop_mod": 2539936.01,
+      "sicop_mod": 2092989.15,
       "partidas_count": 3
     },
     {
@@ -20206,7 +20206,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 1003873.0,
-      "sicop_mod": 1003873.48,
+      "sicop_mod": 797451.36,
       "partidas_count": 2
     },
     {
@@ -20216,7 +20216,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 36721.0,
-      "sicop_mod": 36720.96,
+      "sicop_mod": 1290.0,
       "partidas_count": 5
     },
     {
@@ -20226,7 +20226,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 37405.0,
-      "sicop_mod": 37405.14,
+      "sicop_mod": 7481.14,
       "partidas_count": 4
     },
     {
@@ -20236,7 +20236,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 831840.0,
-      "sicop_mod": 831839.86,
+      "sicop_mod": 124.8,
       "partidas_count": 6
     },
     {
@@ -20246,7 +20246,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 366075.0,
-      "sicop_mod": 366074.42,
+      "sicop_mod": 124.8,
       "partidas_count": 5
     },
     {
@@ -20256,7 +20256,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 186313.0,
-      "sicop_mod": 186312.56,
+      "sicop_mod": 99285.66,
       "partidas_count": 4
     },
     {
@@ -20266,7 +20266,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 1098423.0,
-      "sicop_mod": 1098421.86,
+      "sicop_mod": 249.6,
       "partidas_count": 5
     },
     {
@@ -20276,7 +20276,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 2170488.0,
-      "sicop_mod": 2170488.53,
+      "sicop_mod": 729.26,
       "partidas_count": 6
     },
     {
@@ -20286,7 +20286,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 4100803.0,
-      "sicop_mod": 4100802.74,
+      "sicop_mod": 711.94,
       "partidas_count": 6
     },
     {
@@ -20296,7 +20296,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 473280.0,
-      "sicop_mod": 473280.0,
+      "sicop_mod": 343013.0,
       "partidas_count": 3
     },
     {
@@ -20306,7 +20306,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 189312.0,
-      "sicop_mod": 189312.0,
+      "sicop_mod": 137206.0,
       "partidas_count": 3
     },
     {
@@ -20316,7 +20316,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 791080.0,
-      "sicop_mod": 791080.0,
+      "sicop_mod": 44341.88,
       "partidas_count": 4
     },
     {
@@ -20326,7 +20326,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 3480000.0,
-      "sicop_mod": 3480000.0,
+      "sicop_mod": 2000240.75,
       "partidas_count": 4
     },
     {
@@ -20356,7 +20356,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 15595741.0,
-      "sicop_mod": 15595740.8,
+      "sicop_mod": 139648.0,
       "partidas_count": 9
     },
     {
@@ -20366,7 +20366,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 2579503.0,
-      "sicop_mod": 2579503.44,
+      "sicop_mod": 39899.0,
       "partidas_count": 5
     },
     {
@@ -20376,7 +20376,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 17916260.0,
-      "sicop_mod": 14584767.55,
+      "sicop_mod": 57410.0,
       "partidas_count": 5
     },
     {
@@ -20406,7 +20406,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 3312718.0,
-      "sicop_mod": 3312717.73,
+      "sicop_mod": 1836475.15,
       "partidas_count": 3
     },
     {
@@ -20626,7 +20626,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 345100.0,
-      "sicop_mod": 345100.0,
+      "sicop_mod": 340574.62,
       "partidas_count": 2
     },
     {
@@ -20666,7 +20666,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 5750204.0,
-      "sicop_mod": 5750203.19,
+      "sicop_mod": 0.0,
       "partidas_count": 5
     },
     {
@@ -20696,7 +20696,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 3009879.0,
-      "sicop_mod": 3009879.0,
+      "sicop_mod": 9568.0,
       "partidas_count": 5
     },
     {
@@ -20876,7 +20876,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 1641381.0,
-      "sicop_mod": 1641380.77,
+      "sicop_mod": 232.12,
       "partidas_count": 3
     },
     {
@@ -20896,7 +20896,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 548541.0,
-      "sicop_mod": 548541.42,
+      "sicop_mod": 62.4,
       "partidas_count": 2
     },
     {
@@ -20906,7 +20906,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 95158.0,
-      "sicop_mod": 95157.7,
+      "sicop_mod": 45822.97,
       "partidas_count": 2
     },
     {
@@ -20916,7 +20916,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 275964.0,
-      "sicop_mod": 275964.0,
+      "sicop_mod": 190294.45,
       "partidas_count": 2
     },
     {
@@ -20926,7 +20926,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 256731.0,
-      "sicop_mod": 256731.2,
+      "sicop_mod": 140000.0,
       "partidas_count": 2
     },
     {
@@ -20936,7 +20936,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 55559.0,
-      "sicop_mod": 55558.2,
+      "sicop_mod": 49850.69,
       "partidas_count": 2
     },
     {
@@ -20956,7 +20956,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 635444.0,
-      "sicop_mod": 635443.54,
+      "sicop_mod": 24056.54,
       "partidas_count": 2
     },
     {
@@ -20966,7 +20966,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 1101071.0,
-      "sicop_mod": 1101072.0,
+      "sicop_mod": 386040.16,
       "partidas_count": 4
     },
     {
@@ -20976,7 +20976,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 392195.0,
-      "sicop_mod": 392194.84,
+      "sicop_mod": 138148.68,
       "partidas_count": 2
     },
     {
@@ -20986,7 +20986,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 2990459.0,
-      "sicop_mod": 1750782.4,
+      "sicop_mod": 1368047.81,
       "partidas_count": 5
     },
     {
@@ -21006,7 +21006,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 347841.0,
-      "sicop_mod": 347841.66,
+      "sicop_mod": 40682.32,
       "partidas_count": 2
     },
     {
@@ -21016,7 +21016,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 3283592.0,
-      "sicop_mod": 3283591.76,
+      "sicop_mod": 5844.0,
       "partidas_count": 5
     },
     {
@@ -21056,7 +21056,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 223416.0,
-      "sicop_mod": 223416.0,
+      "sicop_mod": 61772.82,
       "partidas_count": 2
     },
     {
@@ -21066,7 +21066,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 672800.0,
-      "sicop_mod": 672800.0,
+      "sicop_mod": 178900.79,
       "partidas_count": 2
     },
     {
@@ -21076,7 +21076,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 909792.0,
-      "sicop_mod": 909792.64,
+      "sicop_mod": 749613.03,
       "partidas_count": 4
     },
     {
@@ -21106,7 +21106,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 78427.0,
-      "sicop_mod": 78426.44,
+      "sicop_mod": 47055.86,
       "partidas_count": 2
     },
     {
@@ -21116,7 +21116,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 30877207.0,
-      "sicop_mod": 30877206.93,
+      "sicop_mod": 106176.45,
       "partidas_count": 9
     },
     {
@@ -21126,7 +21126,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 844595.0,
-      "sicop_mod": 844595.24,
+      "sicop_mod": 38274.0,
       "partidas_count": 6
     },
     {
@@ -21136,7 +21136,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 1013985.0,
-      "sicop_mod": 1013985.41,
+      "sicop_mod": 776437.37,
       "partidas_count": 2
     },
     {
@@ -21146,7 +21146,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 268694.0,
-      "sicop_mod": 268693.99,
+      "sicop_mod": 3387.55,
       "partidas_count": 5
     },
     {
@@ -21156,7 +21156,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 7554026.0,
-      "sicop_mod": 7554026.11,
+      "sicop_mod": 31305.0,
       "partidas_count": 5
     },
     {
@@ -21166,7 +21166,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 348580.0,
-      "sicop_mod": 348580.0,
+      "sicop_mod": 226550.42,
       "partidas_count": 2
     },
     {
@@ -21186,7 +21186,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 141520.0,
-      "sicop_mod": 141520.0,
+      "sicop_mod": 556.0,
       "partidas_count": 5
     },
     {
@@ -21196,7 +21196,7 @@
       "capitulo": "3000",
       "comprometido_sicop": "SI",
       "autorizado_sum": 295691.0,
-      "sicop_mod": 295691.08,
+      "sicop_mod": 2498.0,
       "partidas_count": 5
     },
     {
@@ -23126,7 +23126,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "NO",
       "autorizado_sum": 0.0,
-      "sicop_mod": 622836.2,
+      "sicop_mod": 2851.0,
       "partidas_count": 1
     },
     {
@@ -23156,7 +23156,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "NO",
       "autorizado_sum": 0.0,
-      "sicop_mod": 240279.81,
+      "sicop_mod": 5096.59,
       "partidas_count": 1
     },
     {
@@ -23166,7 +23166,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "NO",
       "autorizado_sum": 0.0,
-      "sicop_mod": 4325.16,
+      "sicop_mod": 1643.88,
       "partidas_count": 1
     },
     {
@@ -23186,7 +23186,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "NO",
       "autorizado_sum": 0.0,
-      "sicop_mod": 1150560.0,
+      "sicop_mod": 3615.82,
       "partidas_count": 1
     },
     {
@@ -23206,7 +23206,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "NO",
       "autorizado_sum": 0.0,
-      "sicop_mod": 43322.51,
+      "sicop_mod": 2989.69,
       "partidas_count": 1
     },
     {
@@ -23226,7 +23226,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "NO",
       "autorizado_sum": 0.0,
-      "sicop_mod": 160849.25,
+      "sicop_mod": 11991.32,
       "partidas_count": 1
     },
     {
@@ -23336,7 +23336,7 @@
       "capitulo": "2000",
       "comprometido_sicop": "NO",
       "autorizado_sum": 0.0,
-      "sicop_mod": 47141.0,
+      "sicop_mod": 28261.0,
       "partidas_count": 1
     },
     {
