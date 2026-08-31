@@ -787,28 +787,51 @@ function renderErrorsAuditTable(records) {
     const tbody = document.getElementById('tbodyErrorsAudit');
     if (!tbody) return;
 
-    const errorRecords = records.filter(r => Math.abs(r.dif_mod) > 0.01)
+    // Deduplicate by contract to render strictly BY CONTRACT
+    const ctoErrorMap = {};
+    records.forEach(r => {
+        const c_id = r.contrato;
+        if (!ctoErrorMap[c_id]) {
+            ctoErrorMap[c_id] = {
+                id: r.id,
+                fila_excel: r.fila_excel,
+                no_compromiso: r.no_compromiso,
+                contrato: c_id,
+                proveedor: r.proveedor,
+                sicop_mod: 0,
+                sicop_ejer: 0,
+                dif_mod: r.dif_mod,
+                que_paso: r.que_paso,
+                partidas_count: 0
+            };
+        }
+        ctoErrorMap[c_id].sicop_mod += r.sicop_mod;
+        ctoErrorMap[c_id].sicop_ejer += r.sicop_ejer;
+        ctoErrorMap[c_id].partidas_count++;
+    });
+
+    const errorContracts = Object.values(ctoErrorMap)
+        .filter(c => Math.abs(c.dif_mod) > 0.01)
         .sort((a, b) => Math.abs(b.dif_mod) - Math.abs(a.dif_mod));
 
     let html = '';
-    errorRecords.forEach(r => {
-        let excelRowStr = r.fila_excel || ('Fila ' + (r.id + 1));
-        const hasFolio = r.no_compromiso && r.no_compromiso !== 'SIN COMPROMISO';
+    errorContracts.forEach(c => {
+        const hasFolio = c.no_compromiso && c.no_compromiso !== 'SIN COMPROMISO';
         const pcomBadge = hasFolio 
-            ? `<span class="kpi-badge info"><strong>${r.no_compromiso}</strong></span>` 
+            ? `<span class="kpi-badge info"><strong>${c.no_compromiso}</strong></span>` 
             : `<span class="kpi-badge warning"><strong>SIN FOLIO COMPROMISO</strong></span>`;
 
         html += `
-            <tr onclick="openContractModal('${r.contrato}')" style="cursor:pointer">
-                <td><strong>${r.id}</strong></td>
-                <td><span class="kpi-badge warning"><strong>${excelRowStr}</strong></span></td>
+            <tr onclick="openContractModal('${c.contrato}')" style="cursor:pointer">
+                <td><strong>${c.id}</strong></td>
+                <td><span class="kpi-badge warning"><strong>${c.partidas_count} partidas</strong></span></td>
                 <td>${pcomBadge}</td>
-                <td><strong style="color:#1e40af">${r.contrato || 'SIN CONTRATO'}</strong></td>
-                <td>${r.proveedor.substring(0, 22)}</td>
-                <td class="text-success"><strong>${formatCurrency(r.sicop_mod)}</strong></td>
-                <td style="color:#d97706"><strong>${formatCurrency(r.sicop_ejer)}</strong></td>
-                <td class="text-danger"><strong>${formatCurrency(r.dif_mod)}</strong></td>
-                <td style="font-size:0.85rem; color:#334155;">${r.que_paso}</td>
+                <td><strong style="color:#1e40af">${c.contrato || 'SIN CONTRATO'}</strong></td>
+                <td>${c.proveedor.substring(0, 22)}</td>
+                <td class="text-success"><strong>${formatCurrency(c.sicop_mod)}</strong></td>
+                <td style="color:#d97706"><strong>${formatCurrency(c.sicop_ejer)}</strong></td>
+                <td class="text-danger"><strong>${formatCurrency(c.dif_mod)}</strong></td>
+                <td style="font-size:0.85rem; color:#334155;">${c.que_paso}</td>
             </tr>
         `;
     });
