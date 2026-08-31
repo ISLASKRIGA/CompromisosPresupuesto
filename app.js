@@ -885,13 +885,17 @@ function renderPartidaAndContratoAnalysis(records, contracts) {
 
     const tbodyCto = document.getElementById('tbodyContratoAnalysis');
     if (tbodyCto) {
-        const sortedContracts = [...contracts].sort((a, b) => b.autorizado_sum - a.autorizado_sum).slice(0, 15);
+        const sortedContracts = [...contracts].sort((a, b) => b.autorizado_sum - a.autorizado_sum).slice(0, 25);
         let ctoHtml = '';
         sortedContracts.forEach(c => {
             const hasFolio = c.no_compromiso && c.no_compromiso !== 'SIN COMPROMISO';
             const pcomBadge = hasFolio 
                 ? `<span class="kpi-badge info"><strong>${c.no_compromiso}</strong></span>` 
                 : `<span class="kpi-badge warning"><strong>SIN FOLIO COMPROMISO</strong></span>`;
+            
+            const difPag = c.dif_pagado_contract || (c.pagado_sicop_sum - c.pagado_almacen_sum);
+            const difPagClass = Math.abs(difPag) > 0.01 ? 'text-danger' : 'text-success';
+
             ctoHtml += `
                 <tr onclick="openContractModal('${c.contrato}')" style="cursor:pointer">
                     <td>${pcomBadge}</td>
@@ -899,9 +903,10 @@ function renderPartidaAndContratoAnalysis(records, contracts) {
                     <td>${c.proveedor.substring(0, 25)}</td>
                     <td><span class="status-tag">${c.capitulo}</span></td>
                     <td><strong>${c.partidas_count} partidas</strong></td>
-                    <td>${formatCurrency(c.monto_max)}</td>
                     <td><strong>${formatCurrency(c.autorizado_sum)}</strong></td>
-                    <td class="text-success">${formatCurrency(c.sicop_mod)}</td>
+                    <td class="text-success"><strong>${formatCurrency(c.sicop_mod)}</strong></td>
+                    <td style="color:#1e3a8a"><strong>${formatCurrency(c.pagado_sicop_sum)}</strong></td>
+                    <td class="${difPagClass}"><strong>${formatCurrency(difPag)}</strong></td>
                 </tr>
             `;
         });
