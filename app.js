@@ -83,7 +83,10 @@ function initKPICardClickListeners() {
     if (cardAlmacen) cardAlmacen.addEventListener('click', () => openKpiDetailModal('almacen'));
 
     const cardErrores = document.getElementById('cardErrores');
-    if (cardErrores) cardErrores.addEventListener('click', () => openKpiDetailModal('errores'));
+    if (cardErrores) cardErrores.addEventListener('click', () => {
+        switchTab('tab-errors');
+        openKpiDetailModal('errores');
+    });
 
     const cardSobrante = document.getElementById('cardSobrante');
     if (cardSobrante) cardSobrante.addEventListener('click', () => openKpiDetailModal('sobrante'));
@@ -269,7 +272,7 @@ function openKpiDetailModal(type) {
                     </thead>
                     <tbody>
         `;
-        errorRecs.slice(0, 30).forEach(r => {
+        errorRecs.forEach(r => {
             const hasFolio = r.no_compromiso && r.no_compromiso !== 'SIN COMPROMISO';
             const pcomBadge = hasFolio ? `<span class="kpi-badge success">${r.no_compromiso}</span>` : `<span class="kpi-badge warning">SIN FOLIO COMPROMISO</span>`;
             bodyHtml += `
@@ -788,7 +791,7 @@ function renderErrorsAuditTable(records) {
         .sort((a, b) => Math.abs(b.dif_mod) - Math.abs(a.dif_mod));
 
     let html = '';
-    errorRecords.slice(0, 100).forEach(r => {
+    errorRecords.forEach(r => {
         let excelRowStr = r.fila_excel || ('Fila ' + (r.id + 1));
         const hasFolio = r.no_compromiso && r.no_compromiso !== 'SIN COMPROMISO';
         const pcomBadge = hasFolio 
