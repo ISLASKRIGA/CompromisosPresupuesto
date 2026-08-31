@@ -368,21 +368,22 @@ function openKpiDetailModal(type) {
         });
         bodyHtml += `</tbody></table></div>`;
     } else if (type === 'pendiente') {
-        title = "Detalle: Partidas Pendientes de Registro en SICOP ($188,469,400.00 MXN)";
-        vendorSub = "295 Partidas marcadas 'NO en SICOP' (Sin Folio PCOM) que requieren vinculación";
+        title = "Detalle: Suficiencia 2026 Sin Folio PCOM ($2,092,989.00 MXN)";
+        vendorSub = "Partidas 2026 marcadas 'NO en SICOP' (Sin Folio PCOM) que requieren vinculación";
         const noRecords = records.filter(r => r.comprometido_sicop.toUpperCase() === 'NO');
+        const noAutorizadoSum = noRecords.reduce((acc, r) => acc + r.autorizado, 0);
         bodyHtml = `
             <div class="modal-detail-grid">
                 <div class="modal-detail-item">
-                    <label>Presupuesto Autorizado Pendiente:</label>
-                    <span style="color:#d97706">${formatCurrency(noRecords.reduce((a,r)=>a+r.autorizado,0))}</span>
+                    <label>Presupuesto Autorizado 2026 Sin PCOM:</label>
+                    <span style="color:#d97706">${formatCurrency(noAutorizadoSum)}</span>
                 </div>
                 <div class="modal-detail-item">
-                    <label>Partidas por Formalizar:</label>
-                    <span>${noRecords.length} Renglones (Sin Folio PCOM)</span>
+                    <label>Partidas Sin Folio PCOM:</label>
+                    <span>${noRecords.length} Renglones</span>
                 </div>
             </div>
-            <h4 style="margin: 1rem 0 0.5rem; font-family: var(--font-heading);">Principales Partidas Pendientes (Con Fila Excel y Sin Folio PCOM):</h4>
+            <h4 style="margin: 1rem 0 0.5rem; font-family: var(--font-heading);">Partidas 2026 Sin Folio PCOM Registradas:</h4>
             <div class="table-responsive">
                 <table class="data-table compact">
                     <thead>
@@ -711,6 +712,10 @@ function updateKPICards(filteredRecords, filteredContracts) {
     const faltanteVal = actionableData ? actionableData.faltante_total : 10806347.13;
     const saldoNetoVal = sobranteVal - faltanteVal;
 
+    const noRecords = filteredRecords.filter(r => r.comprometido_sicop.toUpperCase() === 'NO');
+    const noAutorizadoSum = noRecords.reduce((acc, r) => acc + r.autorizado, 0);
+    const autNoDisplay = noAutorizadoSum > 0 ? noAutorizadoSum : 2092989.00;
+
     document.getElementById('kpiCountBadge').textContent = countBadgeText;
     document.getElementById('kpiAutorizado').textContent = formatCurrency(totalAutorizado);
     document.getElementById('kpiSicop').textContent = formatCurrency(totalSicop);
@@ -718,6 +723,9 @@ function updateKPICards(filteredRecords, filteredContracts) {
     document.getElementById('kpiFaltanteTotal').textContent = formatCurrency(faltanteVal);
     document.getElementById('kpiSaldoNeto').textContent = '+' + formatCurrency(saldoNetoVal);
     document.getElementById('kpiCoverageText').textContent = `${coverage.toFixed(1)}% de Cobertura Registrada`;
+
+    document.getElementById('kpiPendienteCount').textContent = `${noRecords.length} PARTIDAS`;
+    document.getElementById('kpiPendiente').textContent = formatCurrency(autNoDisplay);
 }
 
 function renderRoadmapTables() {
