@@ -161,6 +161,10 @@
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="8" y1="6" x2="21" y2="6"></line><line x1="8" y1="12" x2="21" y2="12"></line><line x1="8" y1="18" x2="21" y2="18"></line><line x1="3" y1="6" x2="3.01" y2="6"></line><line x1="3" y1="12" x2="3.01" y2="12"></line><line x1="3" y1="18" x2="3.01" y2="18"></line></svg>
                 Buscador y Matriz Completa
             </button>
+            <button class="tab-btn" data-tab="tab-balanza" style="background:#fef3c7; border-color:#f59e0b; color:#92400e;">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 3v18M3 12h18M6 8l-3 4 3 4M18 8l3 4-3 4"></path></svg>
+                ⚖️ Balanza por Partida ("¿Qué Hacer?")
+            </button>
             <button class="tab-btn" data-tab="tab-summary">
                 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="7" height="9"></rect><rect x="14" y="3" width="7" height="5"></rect><rect x="14" y="12" width="7" height="9"></rect><rect x="3" y="16" width="7" height="5"></rect></svg>
                 Resumen Ejecutivo
@@ -234,6 +238,68 @@
         </section>
 
         <!-- Tab Contents -->
+        <!-- NEW Tab: Balanza Presupuestal por Partida ("¿Qué Hacer?") -->
+        <div id="tab-balanza" class="tab-pane">
+            <div class="dashboard-row" style="margin-bottom: 1.25rem;">
+                <div class="card" style="flex:1; background:#f0fdf4; border-color:#bbf7d0;">
+                    <div class="kpi-header">
+                        <span class="kpi-title" style="color:#166534; font-weight:700;">SOBRANTES LIBERABLES (+)</span>
+                        <span class="kpi-badge success">52 CONTRATOS</span>
+                    </div>
+                    <div class="kpi-value text-success" id="balanzaSobranteTotal">$11,806,665</div>
+                    <div class="kpi-footer" style="color:#15803d;">Suficiencia presupuestal disponible para compensar o liberar</div>
+                </div>
+
+                <div class="card" style="flex:1; background:#fef2f2; border-color:#fecaca;">
+                    <div class="kpi-header">
+                        <span class="kpi-title" style="color:#991b1b; font-weight:700;">FALTANTES REQUERIDOS (-)</span>
+                        <span class="kpi-badge danger">43 CONTRATOS CM1</span>
+                    </div>
+                    <div class="kpi-value text-danger" id="balanzaFaltanteTotal">$9,662,424</div>
+                    <div class="kpi-footer" style="color:#b91c1c;">Déficit de suficiencia en convenios modificatorios</div>
+                </div>
+
+                <div class="card" style="flex:1; background:#eff6ff; border-color:#bfdbfe;">
+                    <div class="kpi-header">
+                        <span class="kpi-title" style="color:#1e40af; font-weight:700;">SALDO NETO RESULTANTE (=)</span>
+                        <span class="kpi-badge info">SUPERÁVIT NETO</span>
+                    </div>
+                    <div class="kpi-value text-info" id="balanzaNetoTotal">+$2,144,241</div>
+                    <div class="kpi-footer" style="color:#1d4ed8;">Los sobrantes cubren al 100% los faltantes con superávit a favor</div>
+                </div>
+            </div>
+
+            <div class="dashboard-row">
+                <div class="card table-card flex-1">
+                    <div class="card-header table-header-actions">
+                        <div>
+                            <h3>⚖️ Balanza Presupuestal por Partida Específica (Guía Decisional "¿Qué Hacer?")</h3>
+                            <span class="card-subtitle">Desglose de sobrantes, faltantes, saldo neto y estrategia de compensación por clave de partida</span>
+                        </div>
+                    </div>
+                    <div class="table-responsive">
+                        <table class="data-table" id="tableBalanzaPartidas">
+                            <thead>
+                                <tr>
+                                    <th>CLAVE Y PARTIDA</th>
+                                    <th>CAP.</th>
+                                    <th class="text-right">AUTORIZADO INPER</th>
+                                    <th class="text-right">SICOP REGISTRADO</th>
+                                    <th class="text-right text-success">SOBRANTE (+)</th>
+                                    <th class="text-right text-danger">FALTANTE (-)</th>
+                                    <th class="text-right">SALDO NETO (=)</th>
+                                    <th>ACCIÓN ESTRATÉGICA RECOMENDADA ("¿QUÉ HACER?")</th>
+                                </tr>
+                            </thead>
+                            <tbody id="tbodyBalanzaPartidas">
+                                <!-- Populated dynamically -->
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Tab 1: Matriz de Auditoría y Buscador (FIRST BY DEFAULT) -->
         <div id="tab-matrix" class="tab-pane active">
             <div class="card table-card">
@@ -318,11 +384,11 @@
                         <h3>Diagnóstico Ejecutivo para la Dirección de Administración</h3>
                     </div>
                     <div class="executive-summary-text">
-                        <div class="summary-point" onclick="switchTab('tab-matrix')">
+                        <div class="summary-point" onclick="switchTab('tab-balanza')">
                             <div class="point-badge green">1</div>
                             <div class="point-content">
-                                <h4>Conciliación de Suficiencia Presupuestal Al 99.5%</h4>
-                                <p>Del presupuesto autorizado validado de <strong>$303.42 MDP</strong>, el sistema SICOP registra compromisos vigentes por <strong>$301.88 MDP</strong>, lo que representa una alineación casi perfecta (diferencia neta de únicamente <strong>$1.53 MDP</strong>).</p>
+                                <h4>Balanza Presupuestal por Partida: Superávit Neto de +$2.14 MDP</h4>
+                                <p>Al agrupar por clave de partida específica, los sobrantes liberables (<strong>+$11.81 MDP</strong> en 52 contratos) superan con creces los faltantes requeridos (<strong>-$9.66 MDP</strong> en 43 contratos CM1), dejando un superávit libre a favor del INPER.</p>
                             </div>
                         </div>
 

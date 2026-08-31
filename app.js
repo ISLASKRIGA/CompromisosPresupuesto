@@ -611,6 +611,7 @@ function renderDashboard() {
     updateKPICards(records, contracts);
 
     // Render Tab Views
+    renderBalanzaPartidas();
     renderCharts();
     renderRoadmapTables();
     renderErrorsAuditTable(records);
@@ -618,6 +619,58 @@ function renderDashboard() {
     renderAnexosTable(records);
     renderProveedoresTable(records);
     renderMainTable(currentMode === 'contract' ? contracts : records);
+}
+
+function renderBalanzaPartidas() {
+    if (!actionableData || !actionableData.balanza_partidas) return;
+
+    const tbody = document.getElementById('tbodyBalanzaPartidas');
+    if (!tbody) return;
+
+    let totalSobrante = 0;
+    let totalFaltante = 0;
+    let html = '';
+
+    actionableData.balanza_partidas.forEach(p => {
+        totalSobrante += p.sobrante;
+        totalFaltante += p.faltante;
+
+        const neto = p.neto;
+        let netoBadgeClass = 'info';
+        let netoTextPrefix = '';
+        if (neto > 0.01) {
+            netoBadgeClass = 'success';
+            netoTextPrefix = '+';
+        } else if (neto < -0.01) {
+            netoBadgeClass = 'danger';
+        }
+
+        html += `
+            <tr onclick="document.getElementById('searchInput').value='${p.clave}'; filterSearch='${p.clave}'; switchTab('tab-matrix'); renderDashboard();" style="cursor:pointer">
+                <td><strong style="color:#1e40af">${p.nombre}</strong></td>
+                <td><span class="status-tag">${p.capitulo}</span></td>
+                <td class="text-right"><strong>${formatCurrency(p.autorizado)}</strong></td>
+                <td class="text-right">${formatCurrency(p.sicop)}</td>
+                <td class="text-right text-success"><strong>${p.sobrante > 0 ? ('+' + formatCurrency(p.sobrante)) : '$0'}</strong></td>
+                <td class="text-right text-danger"><strong>${p.faltante > 0 ? ('-' + formatCurrency(p.faltante)) : '$0'}</strong></td>
+                <td class="text-right"><span class="kpi-badge ${netoBadgeClass}">${netoTextPrefix}${formatCurrency(neto)}</span></td>
+                <td>
+                    <div style="font-size:0.875rem; font-weight:700; color:#0f172a; margin-bottom:3px;">${p.estrategia}</div>
+                    <div style="font-size:0.775rem; color:#475569;">💡 <em>${p.diagnostico}</em></div>
+                </td>
+            </tr>
+        `;
+    });
+
+    tbody.innerHTML = html;
+
+    const sobranteEl = document.getElementById('balanzaSobranteTotal');
+    const faltanteEl = document.getElementById('balanzaFaltanteTotal');
+    const netoEl = document.getElementById('balanzaNetoTotal');
+
+    if (sobranteEl) sobranteEl.textContent = formatCurrency(totalSobrante);
+    if (faltanteEl) faltanteEl.textContent = formatCurrency(totalFaltante);
+    if (netoEl) netoEl.textContent = '+' + formatCurrency(totalSobrante - totalFaltante);
 }
 
 function formatCurrency(amount) {
