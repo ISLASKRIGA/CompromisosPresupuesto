@@ -21,7 +21,7 @@
                     <span class="logo-text">INPER</span>
                 </div>
                 <div class="brand-titles">
-                    <h1 class="app-title">Conciliación Presupuestal vs. SICOP 2026</h1>
+                    <h1 class="app-title">Auditoría de Errores de Captura (Almacén vs. SICOP 2026)</h1>
                     <p class="app-subtitle">Instituto Nacional de Perinatología Isidro Espinosa de los Reyes • Dirección de Administración</p>
                 </div>
             </div>
@@ -467,27 +467,35 @@
             </div>
         </div>
 
-        <!-- Tab 4: Auditoría de Errores -->
-        <div id="tab-errors" class="tab-pane">
+        <!-- Tab 4: Auditoría de Errores (ACTIVE DEFAULT) -->
+        <div id="tab-errors" class="tab-pane active">
             <div class="dashboard-row">
                 <div class="card table-card flex-1">
-                    <div class="card-header">
-                        <h3>Auditoría de Errores de Captura: Almacén INPER vs. SICOP</h3>
-                        <span class="card-subtitle">Listado con Folio Compromiso, Número de Fila en Excel y Diagnóstico Operativo</span>
+                    <div class="card-header table-header-actions">
+                        <div>
+                            <h3>Auditoría de Errores de Captura: Almacén INPER vs. SICOP</h3>
+                            <span class="card-subtitle" id="errorsRecordCount">Mostrando partidas y contratos con discrepancia de captura</span>
+                        </div>
+                        <div class="table-actions" style="display:flex; gap:10px; align-items:center;">
+                            <a href="Pruebareporteejecutivo_validado_PCOM_CORREGIDO_DESGLOSE.xlsx" download="Pruebareporteejecutivo_validado_PCOM_CORREGIDO_DESGLOSE.xlsx" class="btn btn-success btn-sm" style="background:#059669; color:white; text-decoration:none; display:inline-flex; align-items:center; gap:6px; font-weight:600;" title="Descargar archivo Excel original tal cual">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                Descargar Excel Validado (.xlsx)
+                            </a>
+                        </div>
                     </div>
                     <div class="table-responsive">
                         <table class="data-table">
                             <thead>
                                 <tr>
                                     <th>No. Reg</th>
-                                    <th>Fila Excel</th>
+                                    <th>Partidas / Fila</th>
                                     <th>Folio Compromiso</th>
                                     <th>No. Contrato</th>
                                     <th>Proveedor</th>
                                     <th>SICOP Modificado</th>
                                     <th>Reportado Almacén</th>
                                     <th>Diferencia</th>
-                                    <th>¿Qué Pasó en este Renglón? (Diagnóstico)</th>
+                                    <th>¿Qué Pasó en este Renglón? (Diagnóstico Operativo)</th>
                                 </tr>
                             </thead>
                             <tbody id="tbodyErrorsAudit">
@@ -499,8 +507,8 @@
             </div>
         </div>
 
-        <!-- Tab 5: Análisis por Contrato y Partida (FIRST BY DEFAULT) -->
-        <div id="tab-partida-contrato" class="tab-pane active">
+        <!-- Tab 5: Análisis por Contrato y Partida -->
+        <div id="tab-partida-contrato" class="tab-pane">
             <div class="dashboard-row">
                 <div class="card table-card flex-1">
                     <div class="card-header">

@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     initKPICardClickListeners();
 
     await loadData();
+    switchTab('tab-errors');
 });
 
 async function loadData() {
@@ -471,7 +472,7 @@ function initFilterListeners() {
     function executeSearch() {
         filterSearch = searchInput.value.toLowerCase().trim();
         currentPage = 1;
-        switchTab('tab-matrix');
+        switchTab('tab-errors');
         renderDashboard();
     }
 
@@ -813,6 +814,11 @@ function renderErrorsAuditTable(records) {
     const errorContracts = Object.values(ctoErrorMap)
         .filter(c => Math.abs(c.dif_mod) > 0.01)
         .sort((a, b) => Math.abs(b.dif_mod) - Math.abs(a.dif_mod));
+
+    const countEl = document.getElementById('errorsRecordCount');
+    if (countEl) {
+        countEl.textContent = `Mostrando ${errorContracts.length} contratos con discrepancias en captura Almacén vs. SICOP`;
+    }
 
     let html = '';
     errorContracts.forEach(c => {

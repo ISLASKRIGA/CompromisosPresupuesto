@@ -1220,6 +1220,13 @@ body {
     }
 }
 
+/* Mode display constraint: Show only errors audit table */
+.kpi-grid,
+.nav-tabs,
+.view-mode-toggle {
+    display: none !important;
+}
+
 /* Print Styles */
 @media print {
     .app-header, .filter-bar, .nav-tabs, .view-mode-toggle, .accessibility-controls, .insight-close, .pagination-container {
